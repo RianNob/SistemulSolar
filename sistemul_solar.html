@@ -1,403 +1,95 @@
-<!<!DOCTYPE html>
-<html lang="ro">
-<html lang="it">
-<head>
-  <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script language="JavaScript1.2">
 
-
-<style>
-
-.box > span {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  cursor: pointer;
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-  background-color: #9f45b0;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: black;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  font-size:16px
-}
-
-.dropdown-content a:hover {
-  background-color: #9f45b0;
-}
-
-.show {
-  display: block;
-}
-  body {font-family: Arial;}
-
-/* Style the tab */
-.tab {
-  overflow: hidden;
-  border: 1px solid #44008b;
-  background-color: black;
-}
-
-/* Style the buttons inside the tab */
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color:#9f45b0;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color:#00076f;
-}
-
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 0px solid #ccc;
-  border-top: none;
-}
-div.a {
-  text-align: center;
-}
-div.a {
-  font-size: 25px;
-}
-div.b{
-  text-align: left;
-}
-header {
-  background-color:inherit;
-  padding: 50px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
- body {
-        background-image: url(https://files.wallpaperpass.com/2019/09/solar%20system%20wallpaper%20046%20-%202000x1334.jpg);
-        background-repeat:no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-      }
+<!--
 
 
 
-  </style>
 
+function get_password() {
 
-  <meta charset="utf-8">
-</head>
-<body>
+  orig_pass = prompt("Please enter password","");
 
+  if (orig_pass!=null && orig_pass!="")
 
-<div id="google_translate_element"></div>
+  password = new Array(orig_pass.length);
 
+  for(i=0; i<orig_pass.length; i++) {
 
-
-<script>
-  var person= prompt ("Enter your name")
-document.getElementById("name").innerHTML ="Welcome"+person</script>
-
-<script>
-  function login() {
-
-    username =prompt("Ignat")
-    password =prompt("")
-
-
-if (username == "Coding" && password =="Tricks") {
-
-  alert(Welcome, + username)
-
-
-
-}
-
-else if(username =="Admin" && password =="Manevra")  {
-
+    password[i] = orig_pass.charCodeAt(i);
 
   }
 
-
-  else {
-       alert("Incorrect Credentials")
-       loction ="https://codingtricks.glitch.me"
-
-
-    }
+  return password;
 
 }
+
+
+
+password = get_password();
+
+orig = unescape("%22i%3Crn%3Em%3Cm%20meedmm%3C%3Dptcmt%20Edne%22re%3Dmii%20eF8%3Elii-d%20%20%20%22ah%22tt%20amma%20l%22%21w%22i%3DemtPoT%22%20ennmwle%20hsh%20vmfyte-ot%22%3A%22n%3Diti%3C.hd/s%3Denacoc%3Em%20maolr%3Cmk%3Es.tjlatewxe/stts.ocer%22%22-/o-7p%20/%20e0.fjDlann%22sfhevmmm.m%3Ca%22%3Cseminftmm.s-ms%3Dxypm/%20.w%20m%20%20ston%20%20t%7Baeocnmspm%20cmusm%3A%3Ehml%20attmUt%3Dm%3Bm%20%3Emmh%20be%3Abm%3Ee%3A0m%20aemsm%20m%20%20oosr%3Bwmit%20l%7Bm%20oode/odlmmc%20btm%20at%2C%20av%3Ao%3Bml%204%20meef10smfmhm%20mwmdom.rpio%7Ddmnlmmpd%7Bwf%20tmm%20rbetmmrni%20%20droecm%3Awuinfpsrncm%20empom/.o%20t%20%3Apnnlo1%3A%20rmt%20ommrm/%20o%20einst%20m%3A%3Beone%3Btmto%20%20sn%7Droimim%20d%3B%20%20%3Axlm%20dw%3Am%20mdl4m6d%20sef%3Bn%20pmmuoc%20umnin%3A-mrk%3Bb%20%3Biriclm%20mmlfntomdteimp%3Bio%3A%20e-%20lxmta%20%20pmmoan%3A%3Bbmgt%3Bmmrnoo%20miam%3A%20hzamhmt%20m%3Be.dromfbpa%3Arllinv%20ddrdm%20pw%20e%20mger%20nb%20rmmon%7Bom.mombccv%20%20ers-%20ou%2Calb%23oroo14nmohmrx%7D%3Am5r-tad0om.6pd-mer%3Amu%20%20p%20cmr%20%3Biny%7Bkmunnmmsclry%20lio9nbioeb%20mcmmlomnmho0%20%20kuw%20omoec%20ngmboalu%201pvkd%20r%3A%20noi%20d%3Bmopo%3Ampnto%3Aomwb%20srtd-6omm%20bf%20%208sgmnm%20a%200oh%3Agxxa1ammo%2Cp0%20%20n-f%29g%200t%7D1m-0x%3Bxnm.1m%7Dio%3Ahnmdd%3Bw.ptpm-mpn6dnm%20d0.r%20%7Bw%20t%28%2C%2Cmonnm.tmiem%20a%20%20noo%3A%20%3B%3Aammimmlmdmr%20ritr%20ol%3A%3Bxpc%3Bec6dm%20ammm%202-pfdthc%3Bitotm%3B%3Axeo%20moxmai%20wae%3Alobmm%3Baxc%20mans1pt%3Aak%20ax0gmeem%3Be2%3Bt%20ndcrzn%20zmo-n%201mmt%3Bb%20mmsm6smyorxwmli%3Bocmno%200x%20adeol%20%3Al%7Bt%20%3Afdmncoumf%20-c-mrkexph%23rbcmbm%20mlm9.%2Cpgm4omnmn1%7B%7D%20mteh%20ss%3Amrmmelmmpb.gn%7Da%20onnomdkom%3Atfp-mly0%20mo%20%7Blfm%20.%20mmmAwmmi%20iemd%3AlthmbS%20mco/ytemdm%3A%20t%20mbp%20%7Dvmo%7Bnmad%20meeytr-mfbh%3Btm%20dd1m/nt%20%20%20de%20d%20a4%3Abs%20%20mdmla4amm%20g0dm%20-r%3Bo%20%20rwlimaumln%20m%20mrmcoiri%20%3BempmobhmtS%20m0mnyse%3Bo%20oeb%20sceotbim%20-vo%3Athu%20b%20k%7Do/mamom*%20%20gn/ottu%7Bob%205%20*rchntm%20bi-m%3Aihtofi%3Att%20*%3Aemmlmyb%3B%20aeft%3B%20r%20%3B%3Bbm%20axmrtnrfd%23nno%20li%20m%3Bo%20eea%3Bkr%20%20m%20mocim%3Bs%20ltlmrdnmao%7Dne4%20r.o*%20p%3Bgmm%20tm%20a1ll%3Aoip%3A%20ndmd.tmtc%20oa%20o-3p%20t.z%3B7fmi%20t%3Bnmed8%3A%20m%20%20mpb6oambmmn%20ok/nnn%3Airce%20g%20ms%20%20ooommol%20oobsl%3A%20rtmopum%3At%20u%20mnmmo/vaCegi%20%20%20namreaho%7Bdbludmocomuo%23gb-nknmmom9vc*im4Cmmnbxa%7Dnmtm%3Amc*/tetmsr%20%20t%20mk0bv%20rudc%20an/lrefimn%20s0umxt%20a.mn/miamtr%20eh%20nkv%20%3Aico%20c%20cre%20oa0utaif6dmrc1ssm%23/fmxteSm%20mbro.em%20tcnetnl%20%20mmbrmaatgtnbontmo1%3Anm.dn0%7D%3B%3Ape%20m%7D*m%3Bn%20ml*%20ympynetute%20m1acreaxd%206*tmuox%3A%3Bbhtapmlr%20mml%20e%3Bxibammsr%23no%3Burc%3A%20%20mdtobm-grpmmovn2lmr%20%3B%20m%205dledl%7B%20m%207nmnxi%20cmr-%7D%3Ama%20%20mca%3Bdethmmfd%20teotvemmkm/2%20m-.*mc%7Dii5%20bt%7Bbx%20mi.%20seml%7Bt%7Bmonmfxmci%20m-m%3A%20-m%3Ael%20mo0spm%7Daa%3Ampbgedmmmm0o%20irvemdeuml%20btm%20rdrit%20egtp%20ttmnmat%3Amnd%7Dt5gm%7B%20%20a%20%20e-c%3Aotmlfc-mogtnemniie3%20m-m%20pm%20io5im%20%7B%20xe%20xrmnmomweoa%20oimmncem%20m%20drom.b%20r%20opstn%20aa%3Ampg%3Ak%28dmic%3Bti/%20rmhhlrap%3Ba%7Dmp%3Ape%20eyks./amm%20c1e/.%20.chlo09o%20-ms02agzuna%25pth%3Bs%3B%25m6lfdsx0p22lmp%3A004-aac%3Bp2mx2e/n%203%20gsmr%20a%3Bo%20sremd%20ec0bl%3A%3Age-en0maemn%25%3A%25b%20-%20t0%3B1mcmu%20.d%29%20-%20ckm0%20uerfa%20%20keetmnuirt%20%3A%20datoicmu%20p%20%3Bl-%20%3Ak%20z%20sormsb%3Bg0%20z%20vnltomrm%20httym%20%3Cmim%3Bwtmmm%20%7B%20rm%20myb%20g2%3Ce%20mngi0am%3Dm%20mejtt%3Erml%20%20meaf%7D/mbm8o%3Cmwmn%3Ehmm/rltm%3Cmmmmmemmmm%209e%20%20mmmc2samm%3C%20%22%25-dcm%3E%7Dma/mmmmrd4mxmp%7Dmd0m%20mmrmm3matmm%3Cmmmd%3Csm%3E%20%20%7Dc%20m%3Cdmrmmivm%20/pimmmmvmrmmmmm%20mmmsmmm%20m%20/m%20m%20miom%20%3Dmz%3Cmaihoin%27m%20mu%27uin/m%3Emmai%3Em%20%20%3Ec/%3Dmmo%20y%22%3C%3Clmemmvss%3Em%3Bdm%22me%20i%20q%20%3El%20h_mtm1alme%20%3Cs%22m%3A%20v%3Emmptlsvmam%3Aztx%22amm%20ci%20dtcpehN%22s%22emt%20omremmrl%3Er%3Cbsdm%20d%3Cemim%20hsm4m%3Bmtmmcomwm%20ataem%3E%20n%22l%20smud%22br%20otucht%3Bclm/rll%22immm%3Ebesaicl%20oscl%3Dmba%22nCnm%3E%3Ciylnotms%3D%20ec%28emo%22%27ve%27%3Amthueu%29%20ms%3Do%3Emrtmi0%3C/on%22vcrsm%3Dbkip%3BotwtiiettlcltdMssraeud%22ai%3B%20srs%3Cmc%22%3Dntm%3Evpstl%20au%22ec%2CendymVC%27v%22%20oo%3Ensehy%22%3DbunVle%3Dwmnbubokctttmoiiae%20lo%22Sn%20%3A%20e%3Dy%20e%3D%20csw%20Snttinc%291e%2C%22ala%3C%3Ctrkle%20%3Es%20cinv%3Du%3Enttoatyu%22%20n%28%3E%2Coyh%20m%27/t%22olct%29ma%3D%22bi%20tttk%3Doannl%20ik%22l%22br%20niynht%3Bcen%20oll%22ime%27%28besaPrn%27osclbMo%22%22nCnmb%3C/ylnotmsm%20et%28etot%29vr%27%3Aetl%3Cat%22%20%3Asr%3EM%20/t%20i%3Buu%20m%22tc%22ymctk%22psooilikec%22%3DartiMC%3Dwl%3Bet%3Enkcn%22tsbaiaosouman%20%28c%3Cotue%3D%27Cs%3Cempt%27nos%3Ao%3E%2Ctito%20%3D%3CetJsttw%3Ep%20/is%22cuu%20mcikaymctpci%20ooilept%3D%22%3DarJett%3Dwl%3B%29Pu%2Ckcn%22e%22b%27iaoso%3Cmen%20%28c%3C%3Etne%3D%27Csuebtt%29noy%3AtS%2Cnuto%20lbnnas%22temubui%3D%22stttmckkne%20lopiil%3A%20e%3Dente%20cswServtinc%22rtu%22ala%3Cat%22kle%20%3Et%20rinv%3Du%20nntortyn%22bu%28%3E%2Co%22hta%27/s%22hllt%29mn%3Dlbe%20sttkbosnnl%20io%22n%22br%20n%22ylht%3Bcey%20ell%22ia%20%27vbesaUruaosclbio%3E%22nCnmt%3C/ylnot%20sm%20et%28enot%27ve%27%3A%22tlueu%29%20hsro%3Emntli%3B%3C/on%22bc%22sm%3Dbkopsotwti%22ectlcltyNCsraeu%20%22ni%3B%20sp%27%3Cnc%22%3Dntr%3Erpstl%20ouuec%2Cen%3CymPC%27v%22soo%3Enolho%22%3DbtnPlt%3Dwmububskctttmoiiae%20lo%22cn%20%3A%20e%3Dype%3D%20csw%20euttinc%29Ul%2C%22ala%3C%22tnkle%20%3E%3C%20tinv%3Du%3Enttoetyu%22%20r%28i%2Coyh%20%22%27pe%22olc%20n/%3E%3D%22bitemnk%3Doa%20ittik%22lnnl%20niyn%22br%20en%20oht%3Bcse%20%28ll%22i%27pD%27besarNo%22osclbbo/%22nCnmm%3Cmylnottst%20eu%28eeolnv%29%27%3A%3AtrDoet%20%20s%3Barbotti%22tumr%22%22cs%20%3C%20okkpca%3Ed%3CiieCpi%22sttDnm%3D%20dmoapmwum%22tc%29o%20a%20no%20e%3D%3Cpnu%3Cnuncc%22msdmcry%22cosononkrto%3D%22%22%20c%3Es%20wlim%3Emi%20c%20acttc%20asma%20spd%20aiesbe%20%3Dd%22%3E-lD%3Dtia%20oFot%2C/no%3E%28sMemm%3Cbm%3Ce%3Evtsm%20%3E%3Ct%22%20d%20lu%3Dtnltd%20yc%20to%3D-towlyod%22%3C%22monimD%20%3Dum%20o%20%22nkmmemt%20dicts%3Cofsnrs.%22l%3Aoectc/ogec%20isoLo%22%27ruj/F/om%3E%29i/VV%20/%20uN5HChm%3D%20BDSGtv/akefgc%22of%22uztenm-a9%20%3Er%20d/%20ur%3EybL%3C%3Dmp%3Cjl2%3E/%20w%229oMiita/on7%3Drokp9mEwSdmg3oQn_wri%3CimmSt%3Cs%20maw%3El%20ue%20h%20%3Csemsfrr%22msairep/hnh.%22/sat/wims.Nw/.utommo%20a%22%20rAaafm/amXh%20/%20%20p%20JwrntfntLepfw%3AdwgrdLaapgMeieo%22ms/e%22Duaam%20a%20Gt%20hhfacar%3Ddt%3Ama%20%u021B/g.k%20%3C%3Dmaf-ot%20/ho1//featizllls.moLi%3E/rc.uXealdr%22a3i%20iL%E2%20%3ES%20%3Daeic%3Cir/GSi%20%22mps/ama/ha%3E%20a%20a.te%3Edmmmr.%3E%3C%20mvieiT%22m%3Ed%3Cei%20w%3EddmneMr%20%3CDmaal.umai%20e%3Ec%20%3Dsm%20%20mrtnnc%3Crvnnamamp/licet%3E.mmr%3Etfivmasawci%3Cdhy%22b%3Ao%20esc/morelgdtco%3D%3Abo6/%3B/tu%22utcyzmnrt%26l%3Do%20%3E%3Dt%20lhmtT/%207thww%20u%3Cgd50e%20m%20%22%22mhb/0/o%3D%3D%20L%20i%20%22rorafp%20uer%20%3D%3Auvnlfl1iivmsm%3E%3Du0cd/meeit%22mmii0of%22m%3Eimefdec/%3Dm%22ra%3C%22%3C%20lw%u021Blsas%20%3Eem%3Cp%3Dmyur%20%3E.%22i%3D%22%3Cmv.il/%20mi%3Ce%3Arrlv/myA%3Ai/v%3Cauosan%22%22m1/r%25w%20td%22-laNisp%22rsm%25eosir03n%22me0i2.e/mUb3mapshd0i2m%22/wnfi%3Cmoduae%3Cmov2e2aomcbtw%25/%22tmnyEemtlEd.a%25%3Emcy.me%3E%20%28eyeut%3Eb%27ta%27%3C%20%3E%3C%29ls%29%20%22udipb%22nacrtDmdkrof%20%3CtoelgC%20%3Ei%3Clcn/%3DuuoIipDnct%22em.seoBtym%3E0dgamcdeurna%28udnfepP%27msbvz.u%28omnpo%22macoddm/%20nma.dama%3CEce%20miisy/%27%20i%3Dlmye%29%3Do%3Cadue%29n%3D%22c%22ao%3Cetc%3E%22ta%3EdmahemSdrits%20c0s%28%22%20a%20%22pmhtltfv0%3Dte%20nau/%20%20s%223%3Dsmtnxfliomnk%3AeE%3Bmt%20e%22c%3E%232icllB%3C%3EsuaI%20/su-trefo-cyB%22saa/atazu%20f%3Er0l%20tm%3E%20%3CoeDmch%3D%20C/%3Cla%3Csl%20mt%3Ersl%20itl%20%22a-%22%3Dl%20tztpfsc%22s%20nreie/nD3Acmt%20mPl%20Bila%20uEal%22pf%3Dstlmt%3Essotaeebola%20%EEnsm%3A-l%20rlxvopmseu%3A%22Crirta%22duAa%20a%29%28PiPle%u0103%20dla%20iosaub%2C%22meoni%22etrSdun%3Cc%3Ea%20m%2Ciaim%u0103a%u0103%20cf%20%20rai%20esnfculi%20ona%2C%20%20a%20%3A%20%3Dive%20tolile%u0103%20lC%20%3Buacaoic%23eed%20a%20d%3E%22ecr%20ssn.aop%2Ca%20e%20to%20u%3Cctr%20%EEdm2m%20as1i%20pn%200%u0103cn%20sd%20rlt%20r-ehne%20eeyi%20eano%u0103tApluWrs0edlcTypotebe.inCuabmea9odu%20gri%u0103%20%20stcecrPmEn%20reami%20caa%u0103%20%20dm%20oPui%u0103aatc%20lovupiieo%20sec%20si%20luui.u%20pbt%20%20muDmmit%22%20memeS%20tnmft%20%20uetteal%20%20%20eao%20mpn3%20ie%20s%u0219lt%20%20spnomoma%20a%20ammlSauiroCtuoaat%20li%2Cd%20os%u0219mtnins%20aOaaeauileo%u021B%20%u021Btf%20it%20aatcl%u0103eee%20S%20r%20riPst%20%EEatopir%20euu.uoisnaa%EEtn%20l%u0103c%20%20%20t%20areal%20sc%20%u0219mnuer%20%20cninstrhiueu%20%20lt%20ssobrro%u0103tatet%20searmbrua%u0103%u0103i%20reCeoe%20etcs%20%20oon%20ooec%E2%20b%20rimad%20nrastesrliii%20%2Cfut%20uomcSn%20cnade%E2ei%u0103tu%20rdoei%20e%20%20i%3Comrsnfu%20u%20/%EEnnec%3Et%3Ciils%3Aml%3Dciuldhi/d%20rhdur.e%20duwiei%20%20pra.mi.epdsim/mdiiaoP/s%2C%22nth_/p%20/ae73oopwrl0Crm%20alo_Tugmklpo0rdccexTtgoitn01e-b%2Cao_ll1l%2C-ioSo0SnniT_p__ntl%20ohXoe_c5.hw.%20/%20gd500dP%20%22%22vho%20_rm%3Dp%3Ert3s%20dsmuiCaf%20-cruTeaayag%u0103i/%3Dftr%3De0iis0%22entn%3Booz0a%3C/%23%3AC%20%3E%20%20u%3EooD%20ulteCeP%3Dr%20Peuj%20sm%22luoa%20lgfjlnnl-tep4Sauppc-%20%20n7rkBn%u02198ppAoltomit%20pr_%20%2Ca%20%u0219m%EE%22%20recuu%20%22e%201mr/iiidd%20%201%2C0k%2C9ln0%u0103m%20a%20mt_iie%28rueXo%22t%29a%20t2ute%20e%u0103zueerf%28%20%20t5s2x%20i%20Pixt%u0103%EE4el%20%3A%E2%29ef%2Cja%22ilttAtosaue%20b%20%20tnl%20jr%22erzn%20tnicei-oi0%3C82aie%20aseiopdtna%20e%E2%20paotP%20neotonu%u0103aNn%2C%203r%u0103%u0103ai%20pl%u021Bdeli%20mEamo%20%20mpt%u0103%20clrl%20tr3%20rule%20%20rinipto%20iiae%20p%EEpter1%20e%20at%20s%20%20s%E2u%2C%207uf%20%20ase%u021Btp%CEbiciaecerlr%20isilio%20%20%20%u0219ct9e%EEi%20%20i%20r1onrue23aa%20ie%20d.liuoiDlolSlaelio%2Ccel2ueceu0o%20%20t%20atpen%20i%2C%u0219tnmard%20ct1z%25dnniSidl8tu%20nl7rn%20gta.cl%20soduaea%203ekeinrrrredaaa%20td%20%27lee%u021Br%20%2Ceeeda%20e%20%205e%27s%20%20Tciee7ea%CEao2daiSeer%20iaxud%20eadoo.ii6aes%20an.0ed%20intrfi%E2%20eb%B0Pu%2C%EE%u0103%2Ctrtsui-r%B0d9eeeee%u0103teis%u0103rent%E2n%20i%20epz%20d%20%20t%20chdtlveee%u0219atle%20n%u0103siiaa%29ntnnu%20utnmse%20t%20ilmat5P/emuup.tm4%20%20%20%20%20km%3Ce%20l%20%3Cp%20%20e%2C.%20amfhneaif%20as%20o%20%20s%3D%3Dat4s%20osit1e%20%20%3Al%3Bnmr/1o-%233mc%20sCp%3El%20%202diraEc%20s%20nA%20%3Ea%20-vaCf%20rtyefias%22%20t%E2%3E%3D%20az40%28hsm%3C%20pos%3Cic2D%20Cssmap%3C%u021B%20sairsr%20%3Clt%22%22-clsontzya%20-83e%20trr/3lsD0%3C%20%3EmExCo%20%20%20%20r%3AsClc%3Dl%20%22uo%20Ps%20%u0219%20lp%22ul%22airifa-fsciie%20penmaacDrcaeaaBeABtuilhln/cpueteron%20telg%20lnP%20.%20%3E%20%20pEruemt%22ni%20%u0103tit/tpial%22%20%20Cunontialoahte%20flreuts%20srts%20exmolaeed%3A%20%3Aoeoes%22jodelrmhlCdiyic%20aamcme%2C%22neaSem%u0219tc%20emlr%20%3Ecmin%20%20umt%20lnin%20%20%u021B%20arberfn%20cmrroa%20es%20utx%3Dmie%20fnCioonpsns%3Bu%20p%2C%20d%20%23tu%20d.ec%3E%20oeie1%20eiir7usime%20aomeaee%20%20%20r%20naeune%20dil%20tet%20acrrfme%20c%EEl9m%20sna%20pc%20uerdrla%20umunisp.nlaiitehnPP.merttCl%20plidticoagsen%20tu%u0219oim%20el%20srieeiud%20r%20n%u0103%20ott%20%20ie%20e%2Crl%u0219irdecllnoa%20lucoini%20us%20tsDi%20esemeieer%20a%20%u0103%20ssfabu%20seuauaeeitriinalrcpue%20o%u0103%20n%20te%20tti%20P%20%2Clteiu%EErc%20%20slrlp%u0103aepomcgiet%20or%3Ctmn8iusipctp%20%u0103a%22k%3Atl%20ue/odrrem/wpdde%20niamwpa.lnkua%3E%u0103%3Cr/c/s%20i%3Dtati2te/mT2Crlo.sonHriliuhe.rrhidg-0-e%20/%20-eo/ma/%u021Bi2uCms/eCa_nCsoiHTRonpuo.o%20iod_edh5jieRo%22ggtjc1u%3D%3D%22%20pdhmme%20%22na_sd0mmemlp/mmi-tgom%3Emdeppmiv%3Dmwahgem%20v0lhdiiashp5o%3Drc%22%3Elmbtc%3E%22%3Cnvhmahemei_its%20moml%22%20a%20%3C/%20gelsf%22mppl%20oanh%20x-t%3Aesut_p%22osoin_rz%22xm.%20_/%20e%3A2icsreiisoai/%20me-hr0%3Cnchte%3Dts%3Eapn_imairs3_%3B/s%22%3D-l_r%3Coeit%3Es%3Em%3Al%3Bns0%20do-%233%20r2Dep%3Elmr%20onrd0lr%3Ds%206et%20-hn%20mGlt%22ymacld%22%22t%20inu%u021Bzi0%3Dd%2Cun%200oh%20emebmeyndaISmetcbafo%3Ei0ornanmiouaaiadi%3C%EEpe%20aecpc%u0103rntl%20%3Ceeu%u0103mbu%20xf%20a%20%22oai%20%EEit%3C%20fttltna%20%22irietfcflnnem%22tei%20n%20sf%20ctmni%u0103e%2C0adtd%20csu%u0103ae%20vdoiaos%20nDhi%u021Bu%20soo.li%u0103%E2ismo%20%20li%20i%20%20%20iniptfe.iouiaafiuate%20ecia%20ucrscd%20r%20zpxurnunEM%3A%EE%20ttadi%22i%20glare%20%20%20e%2Cneaeieeeii%20%20eirt%u0103%20%20%20d%20%20%u0103eolpsgoimsrruui%20lpoiurar%20glmnootar%u021Bm%20%20aabgeessea-%2Cm%20ve.wmsml%u0103a%20gc%20s%u0103eaaood%20ni%2Cc%20n%2Ci%u0103ertprtp%20r%u021Billrro%20cf%20%20n%20Viva%20%20oueT.rm%20saie%E2erueeu%20s%u021Bslaisu%20peeiocuion%20ri%20dr%20nena.rpeunsntt%2Cz%20rccn%20ciia%u0103vv%20do%20%u0103ncaozc%20zr%u0103iiri%20mc%20hteis%20n%u0219eedtofir%20%u021Bl%20%u0219ioe%20.i%20rriireesemd%20iie%20sri%20%20esst%20nezfvtsnoad%20tva%20efigo%20bfeianamiept%2Ceraaoaemsao%20irueo%20%EE%20u%20unlc%2Cumnec%20i%20gr%20eanfhrlnprlakslyo%20%2Ccme%20%20%20ped/emmipna%20m%3Cpma%20%20immmm%u0103p%u021Bdmmvueoodmliudpis%3E%3Eiiarem%20%20%3D.dm%20%3Dac%3C%20r%3El%22is%22%20pm%20%22eo%20/o%3Eselmt%3COv%20%20b2nmvve%20%22s%20as%22rf%3C-cmedcaayairM%20%3Dftruic%20is0%22saa%u0103%3Boozndtl%23%3AC%20mp%20%20%3Eo%20D%20elnrC%3C%3C%3Dt%20m%20iscsr%22%3Cfr-clif%20aa/a-ted%20f%3Erptc/m%3E%20%3CrpB%3Cch%3D%20An/sa%3CslMmumrsl%20illd%22a-%22%3Di%20rztpfst%22%3D%20nreir/tD3Acma%20mMlrBimaisEle%22mf%22ecett%20stm%20ptemoep%20%20asm%3As%20%20eixcox%EEtjS%3A%22C%3A%E2aln%22vr%22%20o%20n%20ree%20uadaaa%20%20tefaci%22ie%u01038r%3Eatn%20.ldho%3Eu%20zt%2Cscmansmuad%20vnzt%20taf%EEa%20alnia%2Ci%20nr38%3D5rm0%20lein%u0219i%20mEe%3B%20nei%20%3Ei%23%u0103urai%20e%3Euae%2Casre%u0219de%20%u0103atn%u0103sfo-%3C%20%20n%20cz52%EEo%20tmdaptee%u0103amnsp%20rig%20n-%20rue%20e%20yeoeuil%20traarla%200uegm%29riocza%20eaeCa%E2oie%u021BausLe%20darp%20tre3%20hca%20%20em%20%28a%20%20n8%20%EE%20%u0103e2%20sedor%u021B%2Cecdp%20n%u0103gradd%20-reta%u0103%20s%u0103dtpm%20%20oc2nauiu%B0dnu%CEurrnp%20val9nseoi%20p7d%20oea%20%20u-o%20ira1tMiadatrt%20%20esicouuSiecriou.%20%20mearuidane%20%2Ci7r%20faM%20r5aeSr1arrtfta%20at%20dda4g4t%u0103%20%20%2C%25d%200t%20l%E2p-%u021B%20n%20%20epitrip%20v.fel%20neannn%20c%u0103oa0nsdfa%20adda1re%20oa%2CEa5ed%20Es%20lsdaob%20zNa%20a4%EEErie%20%CE%2C%20eenp%2C%20%20ijtp%20e1s%20au%20o%u0103%20%20aepa%u021Bt%u0103oisc%20S%20Gdmo%20%u021Boetnoaai%u0103p%20ci%u0103plulla%20ge%20tupic%E2pmre%20%20mgi.d1c%20%20%3C%22mo9iut%20/shcc%20lcwpgsoii%3Aao%20ac%E2rdkmuja2edcgts%20nmwtd%3Ea%20ima3om0rSMsrbhasri3leura%20_conioeltc_-.%20/enPdeiniup00toanixrcghe/zy1c-0crioeP_yi_ecn0ro%20_%u0219c-rkcprl.e%20ecMeitttj.R/m%3Agl%3D0aMgdhi/uuitdur.on_pwieirntka.mi7tnosim/empp3oM/a%20%22mchi/p%2C/uc0_uoiw/Pytomma_0onrgnkrrcp7d/ck1cxeo%3Ctee.y2b%3D3jn0ore/rp-uc_n.lreoc_-ioltr.rei_og7det/d_%3De%22%22g/0dew%3D%22-/cl00mi_ucs%20h%200roPaa%3Ef%3Ckr0ef%20ase7r/s%3D%3Daje%20iositt25n%3Al%3Bn%20rg/o-%233%22_%22rCp%3Elm_p_pr%u021BEcrs_pAtrae-r%20fulr%22yeenfM%22tt/rriszp0Mle%EEt%20koia%20naDoC_%20%u0103epSpataricaman%20%20a%20euepxunpr/thc%20iio_ehnte%E2mrr5epatnka%20%u201Dnmn%u021Beule%u201Em%20ajL%20eno%20ipe%22%20ed%20%20rsfo%20vddlmeotdb%20oic%20ecr%20_%20Bticard%28uetdaeid%20uep%20a0aiere%20sta%20e%u0103plemsas%20f%20aiiiaeiui%22n%20srm%20htt%u0103iuouaec%20ata%20esc%2Cpilnexeel%20o%u0103g%3Ad%20e%u021Btue%22p%EEoie%20aaLgeu%20nieneai%20%29%u0103c%u0219lm%u0219stc%20er%20rcersrtdopie%20m%20nde%20aeste%u0103le%20ctniaa%20nn%20iieecceeriidvn%E2rad%20ileintNaue%E2scrmaeulmt%20i%u0103iisug%u021B%u0103%20cso%20%20%20puprcf%u0103r%20%20ua%20%20ied%20eMer%20%20%20reo.%20m%20oeaclicss%20pg%20%20icnaet%20e%u0103tei%20eh%20jriei%20rneu%EEee%20r%20v%2C%u0103utnsa%u0103n%20ee%20onialirpc%20etta/el%20tgmtdrsict%3E.mmmipmd%3Cdmnn%u021B%20Vm%22iand%20l%20%22ernl%20bueati%20m%22s%20ceeefhnc%3Epamisma2iimeairsm%20v%20t%22%22-%3D%20ncntzy%20osl3e%20ttnoels%230ndma7x%3Eo%20r%20ti%3AnDln%3Da%202c%3E%20rs%20sVa%3C%22dlsa%20rsfn-e%3C%22%3C-eepe2t%20/csrsp%3Ec%3E8c8%3Esma%20%3Cd%20vairsugi%3Ct%22%22-l%20%3D%22ntzy%20%20sc3e%20t%22%20ials%230/amt7x%3Eo%20%u021B%20%3Ce%3AeDll%3Dae2on%20nsf%20se%20%22nls%20%20apfe-ooa%20de%3Cp%3At%20mac/ro%u0103e%u0103e8m8Benr%20%20iu/au%20issasba%20nu%3Dla%20%20uittef%u021BiEf%20mr%3EeutiE%20%20hi.o%20ifd%3Celal%20a%u021Baraaco%3D%u0103fu%20zaiirsa%20em%u0219%3Broennts%20i%3A%u021B%20urs%22ao%20leireeBi%20%u0103Sb%20tVMae%20tfltsue%u0103%20aiarisai%20e%u0103vsa%u0103%20muSno4ao%20is%20%u0103%20gpfott%20fm%20aLzi%u0219%20e.%3Drmnsceai%20ultatl%3B%20ieutue%20te%u0103i%20ft%22etne%u0103%20%2C%20%20eri%20ued%20ib%20reinnuezerplrle%3Bioa.mtli%20%20%20ulchil%u0103apdpec%20iV%20s%u0103%20lur%20ae%u0219z%u0219.tuie%20emciamr%20Ve%20os%20vatrieb%20%20rpueeo%20uiemrrin%206da%20%20%EEcis%20onelolc%20%E2%20P%20paetmaee%20n%20atioed%20rld%20%20%20rotdin%u0103%20nSe%20liiemccatcudt%u0103mtg%20rtbsre%20%20%u0103%EE%20ttudesu-visaxnbi%20c%u0103ieaousbem8%20%u021B%u0103nn.st%20u%20%u0103%20%u021B7i%20un%20Deifaact%20%u0103lPnangs%E2sa%20as%20aaeenieeda%20oz%20%204%20m%20%20%20%20%20De%20piaaz%20%2Coidd%20uunk%20naa%20dnlerm%u0103itiipvarp%u0103%205a%20m%20ia%u0103lte9xetled%20i4serta%20%20lanc%20mauep%20l0tlc%u0103a%20%20arm8otamemrn%20%E2%20d%20%20s%20meo%B0%u0219orV%20eknrnriSzaVtp%20glai%u021B4%20ea%20a%20mi%EER%2Ciheia%20%EEl%20sSlj.%20%u021Beeeioaiu%20%3B%200auxpcreieiflba%20%20r%20es2t7%20%u0103ert%20%2Cexz%203%2Cosi2ede%u0103nurii2%20%20p%20rdcil%20%20%20eivrl%20evtaee%EEeode1stisnr%20oe%2Caeev%20d%20sor%20mz%2C%u021B%20ed%20%20a%EEr%20eil%E2dul%20elapsiVl%20aait2ienenenz%20un%20nnstital%u021B.e%20am%20tt%u0103ar%20tvxlcasomnc%20in%20nter.kna%u0103%20tt%EEaata%20psguuaar%20uoaadtdep%20oi%u0219rsricn%E2op%20auade%20eccoa%20e%20ou%u0103s%20%20%u0103%20uems%20l%20veuLb%u0103eu%u0103enu%20mavademan%20%20oe%u0103%u0219eelppLdfarut%20u%u0103%20uu4c%u0219aePl%20l%20endnreedza.ieu%20fm%20aarl%20%20ul%20cui%20%u021B%20a%20iii%20cii%2Cec%u0103f%20rae%20csr%u0103sp%20%u0219rlct%20t%20a%u0103uteoctrectntrdrutst%20pMt%20ait%20en%20lsi%u0103nsnl%20%20eesoi%3Ct%EE%u0103rl%3Em%20lee%20cirr%20r%EE%20%20%22msmcd%EEn/%20aheia%20wteueudral/iS%2Ceekii.%20paacrni/am%20aePo%20lgi2m-/c%20ten9e3%3Atpry9eudukte-wPd%20oc0o0dwrpmjia2aim%u0219%3D0pps%20a%20/%22o%22Ia7u.tm/Ves%20ipgww%20rlikdas%20Vi/ook-n0S/p/c8sgpAm1al%20h%3CeaN2sru%3Dl7cnapi/sseyeo..2r6e/%u0103ii.V%200iooid05jne//%22ggtPt3/%3D%3D%22%20-euAmep%22enPe%200smeudlf%20-cw.2saata0mp2efnrwsh.s%203%3D0phtxfliho5%3A%3AeD%3B%3Em%20d%22c%3E%23%20gldiBn%3E%3Dd%20wd/enso%22ae%20aiy/%22sstult1zIt%20%20t0N%20Vi%u0103%20ooc8w%20ree8e%3Cs%20tspF6d-%20%20%20Va%20n8%20nef%20tei%20sceilr0ae%20pciatli%20lorcma%EEntdeei%20rcnrme%22e%20%20d%209otcni%20u9lluaahn-r-o%20%20rio%20ps%3B%u021Bsciur%20%20opu0%u01032irppc%22iiticae%22m%20i%u0103%20rviic%20%20itm0i%20Vr%20p%20%3Ctifepeisibmuaoiarettrarsl%2Cap-%u0103eoua%20ca%20r%3Aonm%20rt%u0219ooteaci.7np%2Cc%u0103%20aisuie%20%20ru%20minmnnr%20%u0103ea%EElemilra%3Enalremu%20.te%u0219pc/%3D%20iepfa%3Cslec%EEnrsy%20%20u%20e%3Dat%22dtedis0%22imin%3Booz.n%3Ci%23%3A8%20mn%20i%3EoS8iaa%20r7a%3C%22%EEf%20eiaat%20%20i%20asnlifessca-teilfcup%20cuaio%20roB%20pp%EE%u021B2a/laia%E2umfru%u0103t%20%20%20udaoomns%20oltX%20tiblceaut%u021BsHo%20i%E2usimtdpsr%20n%20t%20ranldfa%u0103%u0103r%20%u0103%u0103ae%20a%20essepal%20lsisMaea%2C%u0103nx2i1a%20%20t%3A2id%20zct%22pn%20%20elupvirri%20dvamt%u0103%20%20n%u0103eca%20%20p%u021B%20%20oub%u0103pruerecrs%EElr%20%EEs9-%u0219%201%20%20aeti%20r7r9nn%20ji0lie3f%20%20%20s%20%20lauaipVtDu%20in%20cc%3E%2Cfsirbn%u021B%20i%20laeni7n%u021BvasNoim%20pueoeadn%20z%EEueesi%20i%u0103%20l%20%20%20velo%20i%20%20%2Cipour6eiaheau%20%20rutfciapl%20nlXn%20n%20%20%u0103m%20%20dsu%20%u0103iv%u0103%u0103bloia%20rcleailp%u0103ela%EEu%20ta%201%20%3Cltvuo%3En/9%20ar%u0219v1mmpn%20i%3Cmi%3Es%20rf%22mndo%20ts%20vsPraibtmncgaaanamans9e%20c%20t/cmec%3E%3D%20dsmiahslmVibrsl%20d%20ar%22a-%22t.leztpf%3Dgbd%20nret%20%22e%233fcmu%3Ca%20l%3Edima%E2af%20%3E%22%u0103fo%20/smtasr%22na%20eroutl%3Cfss%3Ae%3E%202axlo%20m%22p%20%3Ai4p%20/sm9%20%3Cif%20-c%20mamaaya%3C%u021Bc%3D%3Dftrsia%22is0%22-ar%22%3Booz/t%3Ce%20%3A1%20%3Ea%20%20%22o%3E%23%20al%20m4l%3E%3Dt%20fn/%20%E2sM%22a%20taul%20f%3DailT-.eierlup%3Cc%3Bs%u201E%29trmd%20s%20%20tf%20%3C%22e%u0103ltPanPe%20ei%20smia%20rt%u0219oe%3D%u0219%20a%20%20m%20saoria2aidceibsrmlmei%20-ei%20tratya%22ee%20tat%u0103tsll%20%200Se%20lrteo%20sampS%201%20xtlatein%3A%2Ct%20r%20tn9%20%20r%20lae%u0103d%E2tpifa%28.neiS%3Eeiimu%20uhoscscn%2C%3C%E2neueoesuarprssaces%20ie%u0219tercc%u0103eunans%u0219e%u0103r3Elia%20t%20lg%20r%u0219aalfrmv%u0103%25oeic%20iip%20su%20pf9Pnet%20e%E2suaer%20ceaunpPeiuu%20s%20a%u021BiredsA%u201Dx%20%20aimta2nntic%20p%20%u0103nn.trd%u021Bie%20%20s%u0103at%20%20l%20sietutuo7nacsr%20uefra%20paniitora%20a%u0103nuepe%20or%20eu%20a%20m%20%20ut%20ielnda1or%2C%20%2Ce%20%20vtgripmtpr%u0219%20e%20t%2Ci%u0103cai%20ted%2Cd%20%20reda%20%u0103a%20ctemra%E2d%u0103r%20%20i%20aif%20%20%20e%20%20%20ad%20olic%20pa%20neprcatsen%2Cn%20tddiim%20%u0103%u0219teRdcetc.%2Ce.iarum%u0219s%20se%20l%20aei%20gpduianrpna%20%EEmarliel%20tPetrs%20ueu%20n%u0103htora%E2rir%20OuesgcrtalapS%20%20%u0219%20uaue%u021Bielpe.%20tole%u0103%20lnre%25milosPuc%20u%20mrutcort%20m%EEi%EEct%20pe%20hp%u0103ulntmt%20urtle%u0103x%20iuii%20oao%u0103triggtiiiadeetomaumaz%u021Be%EEe%20%20%20parudnaad%20rcuu-mgelnlil%20l%20ri%20%20e%20oc%20%20ltnrare%u0103%20%20ine%20%20rtli%u0103P%u021Bpeenmtulour%20%20ne%20ettua%20cifalt%20rcdmnuieeeItresi%2Cnue%u0103infzot%20iixio%20ma%20plidtinucarei%20ulrrh%20rieram%20me%20%20%20enz%20pr%20ls%20lne%20%20m%u0103liiP%20reu%20maur%E2cme%20vm%20eel%u021Bna%20n%u0103ae%20ouic%20un%20%20ocattlcn%u0103ta%20%u0103ulc/atci%E2mp%3Co%20eavg.%3Dm%20icnt%20/%20epenwrptrfodas/wcae%20-celn%20%20u/racc%20re/n/upem%20/ln2i.sc111p%22ope4m%220/%E2.%E2l4t.ir.gspwtwcolc%22a%3Anupur/-adu0oni/o0oadlw/tti2c1n/o0djemd19%20e%3De404ati/iptixwipih00glg/%3Eh%20t%3Dc%u0103em55meu%20ah%20gi02c/wl%22%22%20p%E2nt%20pta0%u02191p%22sef.t%22tf-ssdn%22seyxo%22ci7ct%3A%3A%3Dd0-d09omt%3C2%3Cot4%20lsas1%20/f%3Capm%3Elfa%20t.%20r%20%E2%3Dcn.rt%20ei%3A3o%20tcm%3Balpatnp%20of0ziil%22tiaxd.omoe2e%20iiP9nj%20eiguastluitfxa%20soie%EEgr%22upecih%20mrmsl%20wtca%u0103eg%20tgateir%20piri%20o%20ltr%22re%20lcs%20zt%20dem7%20%20t%u0219ie%20-t%23%20rirn2i%3Eubadow%u0103ot%20elc0r%u0103c%u021B%20muheies%u0103%u0103l%3E%20oG%u0219eae%20%20nuicai%3Dipder%20tseajf%2Cerlaoesmo%20-oRecn%20rp%20eospaornat%20%EEl.fzerira%20Aem%20teeta%20etl%20t%u0103ualpm%u021Bu%20ea%E2.imre%u0103%2Cnufr%20%20n%20ailnnoinseidun%u0219gseiasene%u0103%20e%20rrnrc%20itdspaaiaclerCi%u0219t%20naaec%u0103%2Ceie%20n%20idalu%20tcoie%20edm%20deeptgo%20%2Cenedpadeoi%20uienari%20ie%20r/lmc%EEu%u021Br%20o%20p%20cd%20amf%3Cpiiaf%20asaf%20as%3D%3Daaipuosittcai%3Al%3Bn%20lt%20o-%203.e%3Eg4p%22l%20ep%20/rafc%u0103sttf%20iae-%u0103mGlaruye%20ir%E2%22mtd%u021Btaiz%200%20%20tli%20aon%20ncc%23p1%u0219%20%20so%3Ei%3Er%u021Bi%EEdve%u021B%20snaiPinnc%2Capu%20nrlc%20ua%20ofnSiez%20u%3Cu%u0219satnb%20e%20nrtrilulalpiu%20Pttrn%20e%22ul%u0103%u0103le%20fn%E2oirm%20ei%20%u0103tL%20%2CcnlutnrudSal%20aci%3C%20upoaiaixri%EEl%u021Bm%u01033%205iur.ieae6mmucA%2Ce%20rie%u0103oiex%20%22je%20%20ntltael%u021BsPuena%20miursm%20t%20%20%EEvx5%20pcc%u0103%20%3Azep%EElo.9au%u0103tbl%20raganru%20a%u0103tuo%20ltuito%20ucten%20%20n%u0103tne%20lnmnprar%E2r%20utueaba%20va%20%20%20%EEa%u021Ba%20i%20%2C%20%20rr%u021Boi%E2iPotdaoioin%u0103%u0103rie%20a%E2z%20ms.dmulut%20c%20%20eian%20grze%20si%20iaiarelniu%20zneePmeltnP%20%20Laumau%20zzai%20er%u0103rr%20%u0219lc%20eetsiaeilaatr%EEtnotndo%u0219aee2%u0103nctittlii%20%u021Bne%20du%E2ltePxiseemi%20%2C%E2%20eespaeeetnmdn%20lp%u0103%20%u0103ee%20na%20l%u0103aS%20%20s%u0219%u0219sa%20au%u0103caoritre%20dcei%20p%20%2Cemai%20dsiutnllptre%20u%20iPiaclp%20mISume%20eri%20j2%3Clm%20a%20es%20%20%20enn%20-%20%22%3D%20tetyffstnpttaelentr0%3Dc-ra.aoiFp%3Ee%20.1%3B%3Cr%3Cbiu%3E%20aCa%u0103%22ci%22a%20fatd%3Duf%20s%E2easc%3E%22o%EEsniaht%3A%20xumr%20%3Eol%3A%20p%3Clm4n9ms%20%20%20/tL%20-%20%22%3D%20a%20cyffssifrtaelauat0%3Dc-%3C%E2%20ioi4p2tmmC%3B%3Cr%20aih%3E%23%209a%20%22st%22%20Lf%20tarntestetnu%20polsnrabo%3Aex3eipeoa%3AlnoPaFr%20F%E2%u0103fe/puinannea%20%3Cr%2C%u0103dcl%20sssiur/m-n%20aac%20%20/penaicz%3Etutelat%3Camn.%u0103rtslEeli%22%20amcaegzlt%u2060%20eau%20tnt%20u%20t%23t3la%20%20l%3Erlsal%20en%201oi%20tel%20i%20mmlc%20as%20r%20cl%22ionlsmr/soer%20tl%20naaerlrcdtr%u021BinSaealtme%20ramsaaa%u0219%22eildeiazaupnrad%20r%20oeieaFi%20aco%20p%3Ee%20er%20zialnu%20mcvn%20%20%29up%20esuisri.%20cn%20lD%20air%20epe%2C%20e%20oiounit%20%u0103aeea%2Cb%20tidLassipSeeioas%20ielal%u0103ltilmintrlir%20iiJattl%20re%20s%20l%20cieait%20%u021Bcndlci%20cnci%20m%20nes%3Eu%20tspmo%3C.ttt%20g/%3D%20nn%20%20t%20/%20%20u%20ewrnto%2Ceiisbwt%20%20%u0103ffcdtenr/ioau%20%3C%20eopwmi%20ua-0niasu//ud%22tpI_/_0/i.%20c/tM4es%20ro%22_utlcii%22.oapd0pidnbteth0%22l%28stmh%20%3D1l2a%3C5cmliors%20apLuV%u0103airsolj%20t%22%22-%20ittntzy5r%20m3e%20tgu%22mlsF0%22%20mh1x%3Eo%20e%20wi%3AcCla%3Dks%20%u0103%3E%20ssf%u0103eai%22dlm-er%20fe-ttumae%u0103poif4%20csr71cir4u9lda%20%20%3CsSuii%20eopduldp%2C%20%20LwPntt%20c%200Ed%u0103%u0103m%3Aaha%E2lx%20uc%3E%20sei%2Cnm%20%20mria.%20aoonpac%20f%20ncrmu%20s%20gas%u01032moe%3B%u0103m.Fi%3Axiap%20n%20oeaeptapF%u0103ia%20zge/-sr%20u%3Dintu%20aeeacsfl%20e0asrietc%20taurn%u0103%20%20lcma%20p%u021Bfe5i%20np%20aLrec%E2a%20%3D%20n%20%20n%20miduo%u0103e%u0219r%3Bu%20i%20ire%23m%20i%20um%20%22%u0103mMn%2Cl%20%20aeu%20Taur%u0219eitpmtnP%20mt%20anoiai%3Crm%20upa%22%20sm%20%20ec/%20.hulee/twsieri/ilg%20uicVtJghu.sTZRN%3En%20aTdJ1%20tgeTd3Ncut%20cJWJ%3At.dZ/3mrtaiZn32ai/rc3LCs%20vrvycmj%20otvzZJwtBcyJMcGcGdlF/RRtFnUIzMRnl%20JY5yJo5ncjxGMnRekT25niTm2lEy3sm%3C2zVxSuj%3DSboFjtk/ncc1N%EERoNbmBJmMyNJnzMuNZPwGjMdNZawWT/s1J/mNDtlwJihMNueyvhMNYu%20npyANY9/gs5INNg%20At%3DAmOpsEJjhl.Fp1R%22hspYwmU/%22.hTezA/twsjmWi/ilgTXzTVtJg2HTjTZRNQTtTTdJ1bcgXTd3NtZtYcJWJ%3Ab.YZ/3mrYaaZn32a///c3LCsGv9vycmjnojvzZJwwBzyJMcGwG4lF/RRAFNUIzMRElZJY5yJ85gcjxGMkRIkT25nmT%3D2lEy33m.2zVxS3j%3DSboFjnk/ncc1NJRoNbmBJJMyNJnzMaNZPwGjMYNZawWT/01J/mNDt2wJihMNu2yvhMNYu5npyANY9mgs5INNguAt%3DAmOpaEJjhw.Fp1Rth0pYwmU%20%22hhTezA5%22%3EhjmWimi%200TXzTa%22f%3C2HTjf%20asQTtTs%3D%3DabcgXositiZ%3DY%3Al%3Bn0beYl-F3%3DY0a1p%3Com/p/%3E%3A%20CcGs9t%22%20Lan-jtn%20erwyzn%EE%u0103a%22wt4ui%E2czA0Nuod%20cErZ%u0103%u0103tl489g%EE%20d%20/kuIurcnem%20%3Daoanr3%u021B.%20%20e%u0219s3rdl%20rc%20nP%22ati%2CnJ%2C%22lpi%20iJam%20ia%u0103%u0103atl%20f%u0103meYa%20%20rrde0i%22v%20nl%u021B2%u0103fenuu%202%20ecc%20%20t5vornpabm%20F%20eienuaieutst%20es%20al%20r6uo%EEiezeglilnoni%20%EEc%u021Blienittrseec%22%20c%20%20maltp%20ceidiedar%20ntrsoetm%u0103oexa%u0103tm%20e%20%23%20e%20%20n%u0103a%3Eie%20d%20P%20ati%20meelnedottdpe%20%u0103ei%20b%20neize%20rem.%20%20s%u0103iza%20cni%20ppa%u0103er%20itttsa%2Cc%u0103%u0103aaouou%20%20afilpu%u021Ba%20reesetrvab%20dfpadzea%EEeeemi%20rtfensclc%20u%20%u0103rmdem%20%u021Bp%20ara%20iepSaaplr%u021Bcat%20n%20%20%20%20e%2C%20uaolptmteir%u0103rc%u021B%2C%2Crecn%u0219nrlnaiecea%20ild%u021Bitucr%20iircnimda%20i%u0219ae%20utafrt%E2e%20aduiotacua%2Cafe%28azltiaS.uld%20Vnun%20i%20oep%20rna%u021Bn%E2i%20o%20%20aree%20oi%20n%20l%20arl%20dsctieceeic%29omllaalIedicauPau%u2060e%20e%20aviuu%u0103%2C%u021Bcaor%u0219g%u0219ppumeazem.e%20eu/%u2060oanamadi%2Csrf%3E%20dmea%20a%20%3CMman%20%20tmliodoes%3Dbe%20nlcn%20%22%3Dia%20fmthtic.%u2060insmppmt%22%20a%20iemetltfi%20dge%20naas%22is%223%3Dae%22rxfliceea%3AeE%3B%3E%20%20c%22c%3E%232%u021Bc%20aC%3C%3Esma%20%20/sr-%E2rtfe-cy%20%22%20aa/atlzp%20f%3Er0u%20rm%3E%20%3Cof9lch%3D%203e%3C%3Ea%3Csl%20ttvrsl%20i%u0103lv%22a-%22%3De%20rztpfse%22s%20nreic/o935cme%20m%3ClaCisa%20eEe/%22if%3D%20%3Ea%20trssls%u0103penoletSas%20%3A-re%20%20x%3Copname%3A/2rc%u0219ru%22%3Ci5et%20ar%22eMsml%20%20ca%20oi%20t%20an%22rmol%20tlttrmto%3C%20%3Ee%20l%u0103palm%20nn%20af%20%20lebrisdfum%u0219%20Soeae%u0103al%20%3Aa%3DsiesMoeimePea2%20%3Bn%20Rieiz%23i%u0103eeu%20o%3Eraoe%20srtd%20eeoauaierui%3Ctpo%20ned2adp%20pmnptafnselste%EEsnao-%2C%20ra%20ioycmpcr%u0103xtliiu%20e%200rSsttaeoia%20iett3%20roni%EErM%u021Bl%20torat%20imuvafr%20ait%20iatci%20eubo%20t%20ll.odiieaheiiinueelr%20%u0103paeee%20lns%u0219r%20ctnucao%20oii.iie%u0103u%20cpcfitarlubdn%20rr%20ut%20t%2Ctdsaoaicseaz%u0103%20ri%u0103%20l%20ceaemau%20astaarsd%u0103%u0219t%20ceb%20eitce%20v%20%20veeaeadrc%20eL%20i%20deim%E2audfo%u0219e%20i%20pezi%20%u0219iiasutd%u0219%2Ctud%20cdeur%20rMlira%20oitpoeacnlnai%20ou%20%2Cumal%20tc%20%20.lm%E2vc%20f%20tg%3Cerr%u021Brpt%20irl%E2simc%20rcce%22r%3Ae%20lce/v.%20eapotipPincios/ur/n8eNmm%20%3C%E22g60%20p%3Da0X.0tt/dg8t3a%20sth9%3A%22imrnia.t.sm%20ippma%20a%u0103tg/r/axrdlmvos1%20er0i2%203g//0sj%u021B%20%20/63N%3Datc7v%226/%20a%u0103i0%22.s%20ii0pidrl.mth0%22mpasmhm%3Da%20/p%205%20mxcoga%20f%3C1e2lf%20as3ejrs%3D%3Da%20%20t/osit7t%206%3Al%3Bnga%22vo-%233%22rm02p%3ElmeppireEcus%22%205n%3Ea%3E-/iii%u0219rmyt%20%20%20m%22htomubszi0eencp%20ioger%20%209t3Xmul%20%3CdZ8%2Cla%E2lei9ctr%20o/pwaeeel/u0opedc7ahp%20mtilc%3Ei%u021Blresa%20aca%20Penlannrued%20aa%20lro%20%22%20%20upiiafertp%208ae%20a%20c%2C2ecaiss%200%EECin.rige/aeglx%3D%u0103edrtr%20eotMeluc0leOe%2Culmloetiliiulamulf%22tlam%20rita%u0103l%20%20n%20etin%u0219t%20%u0103sieuadoexnopcine%3Air%20eee%20%22%20%20%20oSp%20le%u0219ta%20dla%20nlniecrmiau%20actsrr%20il%20atu%20e%20ie%20%20%20necucelc%20umttuioieimiommnin%20SerMiaue%20dlzSd.sMin%20aelosun%20iaizdcrcenone%20amiecra%EEcce%200cot%20e%20%20pr%20ntun%20%u0219dlplmpn%20e%20ti%20%20%u0103eo%20%20%20e%20tmusea%u0103c%20edr%20%u0103s.%20tto%u0219%u0103oaio%20%20eiVsairlpta%2C%20baiaa%2C%20ee%20fvnioha%u0219miei%20%20%20spi%20rc%20%20snuMa%20nrie%20eS%20%u0219goirt%20afEn%u021BnPBerito%20idl.a%20il%2Cf%u0219os%20r%u0219udfastms%20pra%20iar%20%25p%20%2Comleaizrtu%20%u0103%20c%u021B6ms%20piElaubncnu5ouciianeln%u0103mes%20te%20tri%20/lmMcua%20%3Crsp%20mii%3Dmpien%20s/go%221arm.tm/%2C4%20eipgwi%20aiikdau%20au/ook.e%3E%u0103/pbc%20sml/mStrihtIur0smuit/cSarieoMgred.%200eOr/lieRja0iooa_x_InDhsl_pt/c2%20auhoIt_%20p.ulsiu%20o%3Disoo.am/.a/epig.ieS%20S%3Cdio/rsr%20oihic%20rcb/2ng%20t%3AS/_/ta%3Adr/uIpiddcI.skidwgtpooawaOoS/p2asa0rSmks0_Rrrur0Rp_ic/%20R_hl0gMt_lh%20t%3Deml355mej%203I%20g%200xtIsa%22a%3C_lsomi%20suio%222%3Dlm.r%22ts%20%20%20de%22l-%20%22%3D%22miiyffs%3Dm0rtaelmOde0%3Dc-casmoiCp%22_mm3%3B/r%3CpiO%20%23o5a-%22a%3C%3ElPfMt_so%20iseep-%20%22%3Dojs-/fhs%3A%22xMma/io/%3Aev%3C%20m2w%22j%20%20%20%3Eiahtamf%3Csk%20%20f%20asac%22%22s%3D%3Dafttmosit%3E0%3El%3Al%3Bn2Sm%3Eo-%233drmh2p%3El%20rpsirbEc0sa%205a%3EaI-t%20h%u03C2%28rtyn%20r%u0103%u03A6%22ot3e%u03B2cfzw0l%20ims%200oEeetm9h3%3E%20i%20%20%3C%3EP%20uincovgs%28ll%u0103c%22%F3ailes%20%20r%3Cutr%29%29ct%3E%20aeieaaimMp%u0219ard%20a%20%u0103ar%22ele%20npdz%20%20%u0103ao%20i%20a%22slo.i9%20f%20Po%20%20%3C%20er%20ddtbiccs%20ilciCt%u0103m%u0103rai/%20rir%20rpsnnpae/%20%u0103Hep%20b%3Ca-1sgasme%20tl77pitluae%20e%22trl8%u0103%20atoeeacuuemoaee%20csA%20a6l%20hxl%u021B%20blte%3A%20lirsnu%221env%2Cn%20om%20uWegaenoaoic%20o6daai%20mcOtopmnr%20ooilAru%20ata-ac%20n%20e.nrnhet%20MC%20%20%20urs8e9aaeol%29ae3cluae%u2013r%20%20ad%20aseleca%20tcP%20la%20sbui%20rtHcea%20oyad%20r%20%20i%28h8d%u1FD6o-e0fe%20rc%2C%u03BC%20c%20ve%u03C2eoe%20si%20zlrrecdtaechositll%20%20rml%20ae%20%28aa%20dlpM%u0394%20%u03BFiirte%20uanecpt%207orHt%20%20%29rev%20snaatskilsfl%20a%20ee%20%u021Busa1f%20%u021Bl%2Cus1lcreea%20caiVa%20aA%20%20ci%20hnlae%20%20asriorIeiutiD%20%EE%20etu%20gzAlzrar%u03B5%2Cuob%u0103%20%20g%20ia%20tlatinaf-n%20%2C.ir%20an%20lirt%20c1%20ioo%20tsteiemigrao%20Pescugiri%u0219mhc%20rd%20b%20%20%20%u0219g%20ie%20ezsP%u0103map%20i%u0103%20mciAeo%20ifsi%20ag%u0103eeue%20%20%2Cro%20i-ft%20%u0103Dedc%3C%u021Botra%3E%20%20id%20fd%3Casmgtna%3Dmpieor%2C/go%22roi%u0103.tm/aa%20iipgwz%2Ca%u0103ikdar%20t%u0219/ook/ama/p/c%20amvomc5rnhlo50bsaur.s%20uaXi%20t_tjel.%u0219%3Agl%3D/nisdhi/iroodur.nl/ewieiPuo%20a.miovresic/0cpvho_/ao%22el/2opt/o8o%22ooiwper%3D.mia%200piigtkchh00doc%3Am%20%20%3Doi5dd6lm/ubds%20%3Eiciuwm%20%20%3D0%20ja2al%20%20%20gss%20%20%20%22a%22h-%20%22%3Ddu%22lyffs%22Am8tael%20.vl0%3Dc-a%20%22soiCpm%20%20a3%3B/r%3Ctie%20%23o5al%22/%3C%3ElDfitisi%20isren-%20%22%3DoesP/fhs%3Amxoma%20ioc%3A0d%3Cmm2_%22h%20%20%3Cii2e5i%3Es%20s%22%20t%22%20a%20at%22%3Etltffpt%3Ce%20na%3Ek%3Ess%223%3D2ommxfli%3Cpvh%3AeE%3Bmm%20s%22c%3E%23p5caiCe%3Essate/sm-_rnesn%20yg%223unalttzlpttr0w%20E%20lelo09%3ECndM3%20%3C%20%u0103rieDcoslei%20s%22uaau%20ea%20i%3Cil%u0219raca%3EPesmlaa/asshera%20dbpu.%22l%20ifeeozl%3Dscot%20%20%20sl%20rt%209tlaoa%20D%3Co-%20m.nimopcA%20H%2Cc%20rflMetas5st%EEoeree%u0219t%u021Bt%20/rtlultm%20atiitaim%20t.Ceup%20a%20%20%20o%20%20asi%u0219uiPafs%20sofiasrutDe%20noiatu%20%20e%3A%20Mnuaeeolend3ro2N%201%20.%20lih%20c1%209s%20%20%20a1pem%20aratn%20o%20saan%20tr%20%20uXdarHeycleiVdt%28h%EEari8%200AAdin%20ns%20ocrrsuieasgci%2C%20%20a%20D%20%20%20t%20mi%20zao-gs.so%20oanp%20%20t%2Co%20e%20dueede%20si71nnao/%20mtie%u0219s%201%3Cprsaaims%20else%22%20a%20fa%20atltfc%20r-e%20nal%202As%223%3Dgn%20-xfli7o%3Er%3AeE%3B%20E%20c%22c%3E%23pmc%20iCe%3EsbaIe/bm-er%20is%20%20y%20%22%20trdltgzv%20uie0e%20cro%20coM9ofrpb38%3CitttoD%29oodtausapotb%20eas%20aigiaairuri%20%20%20a%u0103%3Ceue.%20%20i%20a%CEtsaes%20a%20a%20ear%3Ddorp%u0103%20%20s%20urevf%u021Bl%20Ms%28l%20J-%20efat%20%20p%20e%20saatr%20%20a%EElef5rcAd%20tte%20zreta%20te.cot8tbcmx%20imcsxemat%20eaL1l1lanoa%20oa%EEfe%20tf%20%20ts%29rralaro%20%20%20ecpi%3Adisr%u0103dio%20um%20rt120eo%20me.i%20cn%20u%20%20%20m%20toperotcme%20%u0103cnu%20%20%3C%20moieec%20t%3Ceu%u0103a%3Aml%3Dr%u0103%2Cadhi/e%20f%u0103dur.%u0103arnwieilr.ea.mi%3Ea%20esim/%20pim4oD/sn%22rmhj/pf/2/axoosw%20e222mracp5ligaki%22osgdoco/%20ahoatrwteuba4aal/ie%u0103sikii.pb2%20crni-%20m%20te/o.%u0103%22a4miht%20tmsmga%3A5p%202DD2dkkrmjj5deos%22xgowjpa%3D2%22%20aameie%22%22siu/00md4a/i%3Ch%3E%22mm.nmm%20//ap/ii%3Dmersiumrvpghgci%3Dph/5Dattl%20%20tjtsmb5g%3E%3D%20oi%22%20td/lm%22%3Cmpm.%202ta%3Ck%20i%22sef%22oiif-ss%22pa/eyxo%22mc/ct%3A%3Aeu%3E/c0%22o%20/ho/oua%20.s2tbiifpaic%20%3Deastga%20sl%3Dantrsi%20ip3w%3Cam%22%3Bol0%3C%3Cc/%23mf%20s2ap%3Eg%3Emairspdrdt%22%22-%20oaJntzy%22bf%203e%20tte%3Etlsb0%3Ephnfx%3Com-%20%20%3E%3Atbl.%3Dc%20%22%20J%20isacpae%220lrlt%u0103if%3D-%22ecSaempzre%20%20cvr%20aa%20ec%202br%u0219n%20/du%3CiaueeesiSd.sasn%20seno%20nnfia%20t%20mlaz%20ugo%20%20%20%20n%20oc%3Dmm%20%20imms%20a%20sco%20ltf%20madl-lslnda%20peo%20Sou%20ra%3A%20%2C%u0219dg2soj%20ao%20Jaa%20itud%3C%20ia%u0103odmsirlctse-%20%20u%20c%u0103r/ipoatra%3Eedprtru%20radailifmeenSitaeaa%20um%20%3DaStlsrti%20%20%20%20%20eu%3BoEn%20cue%23lgeu%20te%3Eaarei%20einoaab%u0103seuecuiroe.eb%20ctptrao%20lit%20neiepcdirrci%20beim%u0103pr%u0219esil%20aut%u021Btmeeuiu%20iremcoinzula%u021Bsriuthtni%20i%20celcl%20te%u0103r%20%20ce%u0103nii%20idivi%20ft%20egs%20oolto.%EEt%20visrurzdiett%u0103t%20%20iie%20o%20%EEt%20lnuiup%E2rtr%20n%20attoeup.e%20nevCesi%20aiee%E2i%20le%20%2C%20i%20medlr%u0103t%20%20Sl%20fuf%20m%20JoioditJ%20%20lsoedetcptuurlt%20aiie%20%20Pa%20te%20niJaeu%u0103stcpn%u0103%20nceo%20e%20ae%20ivn%20%u0219rtue%20mi%EEbdisuns%20edn%20%20lEamecnlaielilf%20tzttua%20saalos%20ccme%u0103ar%20%2Cl%20%20parleo%20i%20cieieepdcLnee%20t%u0103pVuim%20eu%u0103p%20ern%20migsreccr%3Ctmteu%20siwcen%20%20m%22e%3Aupocc/ooirpaoa3oup%u0219lF/lze%E2.sli/O%3E%20%3Cep//a%20d%3D%200o%22itm/%20let.wpzespwtbam-m%22e%3A/ualc/ooD%20Lcoa3otnnaF/lzjrtrli/O9mj%20p//a%20r%3Dl0o%22itt/%20ie%22.wuzn0pidbrmnth0%22/sammh%20%3DDeLsc5%3Dmt%20npa%3Csljrt.rsl%209bj.%22a-%22%20ttmztpf8%20%20/%20nregi%22ab32c%22emu%3Cluci%u021Ba6tfs/%22%20fa%20%3Eaet%20sp%20%20tfe/o.irrdsm%3A.rn%20%20xhomdfni%3Awa/idsr%22wiargn%20prruen%20ttko6advltaiw%20uutrss0e%20%E2utr%20ho%20nuhgo%3Elsts%20hu%20mdrefw%20feera%20wiaa%20%20%2CPre%3D%20dl%20ekniteacca%20%3Btlgens%20%23tpie%20rm%3Eugr%2Cegiiilspe%3D%20etts%20%20ef%u0103ri%u0103ec5eeoo%20aap%20unaflns%20iidDea-%20%u0219od%20t%20yiet.ir%20tlhataae0%20odioluofaa%20ne%20bile%20t%20bJ%20ccl%20iie%u0103eueieami%20o%20eir%20%u021Bloeei%20eelm%20utpe%2Cai%u021B%20arepll%20%20te%20%20eilbieian%20%u0219c%20u.%20Jto%20lpad%EEm%20ro%20na%u0219e%29io%20tiprftxri%20svei%u0103pn%20isegimgbn%u0103imeaaat%20re%20ulroenlmAessllunaltinifaoi%20miirieuztuddtleg%20u%2Celap%EEne%E2fra%20ustud%20%20%u021Bzraigua%u0103t%28%20ii%20de%20tluoge%20eodatoe%u0103taa%20ne%20ebt%20imcnr%u0219a%20isCufnttlaceal%20uns%20usraree%20%u021Bar%20slearl%20%20eeeaed%u021BtPeR%20eieiiasaatubp%u0103%u0103ecad%20ndoeliailiX%20umfrIe%20%20ielz%20le-s.Mtse%20uaet%u021Br%20tcor%20ruptecsr-ie%20n%20bsl%20aecleaeuoidV%20l%20aaelctnrtmmrl%20o.r%20%u0103%20ct%20iniiuei%20uP%20tti%20lialnlcnipenurtl%20%20i%20l%20%20%20et%u0219rmzc%20d%20nbfienl%u0219%u0103oeemnuoioJ%20.la%EEiuacaneu%20.eteugIar%u021B7%20%20iuc%20cteo%20eilnuattaeoe%20e%20p%20er%u0103%20r%u021B%u0103c%20ap%20u%20eurutcrr9riiau%20%20emls%20%u021Bien%E2s%20reutptinGctcc%E2ipG%20%20%20n%20ie%EElrae%201o%20lat%20lnie6e%2Civc0aylse%20medednogt%20caindrtearamen%20%20iiaaepe%2Cmund1e%20%20%20tGamsculm%2CPl%20ere%E2iur%u021Bu%20ptieerm%202reias%20%3Csmren%u0103f%3C-cairtaayaa%20al%3Dftrdstiis0%22atae%3Boozr%20.%u021B%23%3Ab%20%3E%20%20l%3EoSb%20dlleai%3C%3Di%20%20uiplss%22aet%20ilif%20lJ%22r-re%20%20%3Ctapmcn%22s%3Efr%20c%u0219/-m%3E2a/ep/lhagims%3E%20%20%20i%20i-%20%22%3Die%20eyffs%20%20sntaelf%20ac0%3Dc-a%20%3Cmoicp%20.2ib%3B/rmdi%22%CE%23e2am%22tn%3Ennf%20tecpctsaesisduo%20sxsoi%20%3Adx%3A%209rao%20%3A%22iepnae%22tnt%20%20ip%20lpi%2CezM%20taerit/ncaelruh7ae%20isestrafii%u021Baa%3Cemirata%3Cu%20silntsem%20lJ3tanitl%20lett%u021BateftnteSe%20%3E%203tpue%20iilse.e%20u%20feuio%20i%u021B%3Eaaaia%3Dielm%20rdsr%20i%20rioi%20%u021Bsii%20nml%20%20alaicmineugiallolei%20r%20ao%20%u021Bs%20%22iu%EE%20uptz%u021Bc1rdnc%20p%20Gae6ubtcG0ea%u021B%3Cam%u0219i%20aer%2Ccsiii%20utmlartssetrprei%20%20itcsill1apceieuleadueo%20lsriarii%20%20%20%20ubfr%20Clt%E2%EEma%20mu%20%u0219%20pe%20en%u0103%EElea%20eji%20ic%u0219r%20aiiu%20aeiSusr%20%20ierllpzinfeel%u0219r%20Pc%20t%20cnlu%20%20l%20Xi%20c%20sXrfnlr%20isicSre%20epe%20.ar%20%u021Bev%20fsionaii%20%2CoeijiiutIuumtcalo%u0219e%20%u021B%20dioo%EEonniazcembn%20dsoecsali%20%u0103%20iilin%20ulrea%20%20itufmo%20lf%20%20%20ti%20lu%20%20raJiu%20o%20pussr%20%20gu%20zioo%E2uuarae%20slc%20sceril%20niut%20usicianueee%20ueea%u021Brti%20ljedtariimeiooeeZ%20.e%u0103cjrt%20%u021Bmuii%20gllaunrliundilmpe%20m%20etcamu%20tc%20lueu%20t%20%u0103eee%2Cbual%u021B7at%EEe%u0219%20etue%20lllpi%20cinzi%20e%2Ctrrar0ipone%20teruai%20e0%20p%u021B%u02195esot%20%20see%u0103ieaii%20arte%20li%20%20%u0103ajarunluia%20d%20%20atn/l0ircmpmenzd%20s.hmmo%20zp%3Ceraicro%3D.%3A%20%20vJu/epal%EE%20orceu%2C%20rtou/nSi%20op2epimi4tSagecsesi/t%20/%20a5elsiee-tultbzeJlea.awoj-auotn3%3Dippp%20dt/%22o%220u0artudaeilosoa-%EEigpttnn%20izt.o-iaprso4/rdge5pe/lih%3Et0a/%3Ane%20la-ipe.t--Jee%u0103ecinjl/%2Ccr%22ittecur%22r%20%20an2nii%229/oSl00mglri1mt%20%22ltetdmmma%20ugmmviuleid%3Etmp%3Cw-nda%3Dhi0.%3DSc%22h%22httc%3E%225d%3E/ma2emame%20ts%20%3Cnvzf%3C-cm-%3Cwaaya%20/%22n%3Dftru/%20dis0%22s/t0%3Boozoini%20%3A0%20me%20i%22o%3E%23%20lliab%20%3E%3Dt%20p%20/sts%20%22g%22ra%20ltf%3Dtl%3Cf-cee%3E%202aprc0m%22p%20rrami/sm4n%3C/%22%20a%20%20lumtltf%3C1cie%20nastars%223%3D-grsxfli/i%3Cn%3Ae6%3B%3E-%20maci%20%20.ciaa%20%22sda%22t%3C%u0219t-%22rteraey%3D%22eta%20atmzs%20pe%u01030%20%20xidoSom%23%3A%20a%u0103%200i%3Eam%20nc%3EauSi%20ueel%20iSd%2Csab%20%3Dueuon%22%20staEplhoie%20ge%20sama.a%20uaa%20snonrt%20%3Da%20e%20%20ntseuazl3llo%20t%20%20l%u0103-%20e%20xp6rpim%20nsiurruc%20int4%20aaezacS%u0103duc%20f%u0103sia%u0219md%3Edsdnt.phieeD%20ei%3Coats%20aoam%u0219asoemf%20aidir%E2seidotm%20o%E2Se%20del%3A%20%20%20smaiondtm%2Caab%20iaPtue/%20tvuutdn%20gir%20op%20eorua%20nlnr%20%u0103Seae%20iu%20slir%20r%20i5r%E2dlve%20%20d%20mori%20e%20%u0103ilaerc%20lmst%20amcmr%2CPtt.asJuuuP%20ua%20n%20rudmt%20etllui%20goso%u0103mam%20molzom%20m%E2tgnr%20e%20%20%20aioi%E2altli%20n%20%u0103eet%2C%20odivnou%20aee%20dnuonl%20o%20gsr%20%20tmuciiileeao%20s%u0103oiea%20%20olmagtml%u2644ateneetoiC%20ode%20esddmaaetpliadie%20ree%3Bas%20ezm%u0103unztie%u0103isNgelenicerl/r%29mt%20mc%3Ci%20ur%20g%20%3Dmnmeat%20/%20i%20aoerdtaecmlstdi9uoea/i%20iiise1atrir0r/ap%20miaeixi%u0103soe0or%22ipaa/br/eib%3A%3Artn%20butwqcae.oln7%28uif%20/%29si2t8r/yihs%20tt.trsl%20sltaolrl%28%20pbteplo%20t.o-a%2C8aso0/uttu9pn/5gt%3Ea0u/%3Astm-la-c%20ihcasctramc-et/%28c.-raie%20utlaasaz2nissa/sp0uelne%u0103sm.s%20lrrettstjruem%3Agd%3Dtu-%29chi/-%3Casrmad-%20nao.at-c-%29/tx/e%3A-/0nr1acp4f0r/ar%22afmtipo/wetcoi/nntm%28bb0ad%3A%29ir.fu0%28shqff2tpas78esnt%29lsttlae/eis%3Arir4-r%28%28pana/oopaplw/t8tud2n/ote5mad-0tr%3Art0cntnclcttuiltsiniaa2/arasscaeeeiaeutartana2c/eiplapie0odjssrr/%22mtleer%3A%22r%20%20ettwii%228-i-n00mgao-%29%20ti%22n%22-ylm%22%3C-tet%20%20ta-eaa%22sefplwbf-sshe5.eyxohshoct%3A%3A60%3Epa0ao%20ap0%3Conb%20eslr0l/faaau%3Etia%3At-nrei%3DtnreSi%20il3arsil%3B/lscmso%20/6eiauo%22.isnpunttoserru%20p%20gil%20%20ute%3D%20i%20c%20s%20eoeir%209b0ecimlam%20uuo%20%20-tcgi%20%20nccaci%20e%20cfrt%29cl%u2013-h%22ju%20e%u0219loz%20%EEtu%28ip%20tahu%20us%23r%20%20%20c.%u0219%3Ete%2CoxdneneaaN%22eliim%20e%3D%20ritenomrcieead%20npl%20ddr%3Dd%20ioiiisgdlhd%20mll%20ie%20i%20-sdlhn%2Ctptnr%EEueerrisd%20m%204rct%2CrtnIcdaa%20e%20uhitiazuaci%20sau%20t%20u%u0103nboca%20s%20nd%20%20b%u0103noa%20pnureilere-rartas%20eodnad%20Sere%20esirl%20urc%20an%u0103g%20pmaae%u0219ad.scealihdi%20%20c%20t%20%20enel.d%u0219ecrcmla%20%20rslint%u0219acddft%20ehngtssru%20llir%20S%20%20ramrn%20xet%E2ducugu%20mrtrean%20%20lirieairetdu%u021Bli%20negdntt%20%20eietrutuil%u0103rmnle%u0219ieo%20etamnuol%20%E2daitnuc%20%20p%20eer%u0103%20l%20tlu%20in%20Sor%u0103mrtmc.%20e%20m8ae%20indnidaue%20a%20re%20lPcdo%20in%20ur%20mned%u0103a%20l%E2aPulonrmdut%20gce%20nii%20et%20%u0103mn0o%20piium%20a%20gSin%20eoclP%20eaa%20%u0103aculut%u0103ia%20ee%E2tetacplmits%20%20gr%20i%20abel%EESa%20aajtesiott%20ezu.atai%20idanmncu%20muca%20i%20iet%20acr%20m%20uca%20fue.natmeArenir%20ea%EEr%20%2Colgoaseseuce%20ensao%u0219etal%E2Jmemtitm%20itpero%2Crrrigixei%20eafe%u0103et%20tu%20%20nen%20%20erul5lisi%20Sdr%20int%20u%20asi%20lxtatp%20ar1a%20%E2l%200r/tiddo%20vp0u%20ncekemPua%20eiprn%20fuJiecvluedtuudrpsai%20airit%20%20%20%20.u%20%20%20e%20mhna%20%20recu%20n%20ulep%20u%E2ea%20tne%20ppi%20%20zrdr%20u%20ii%20%u0103fplo%20pddataaaucaertu%EEldpeeiprept.%20%20%2C%20a%20%20a%E2aub2ualei1%20%20a%20rmzt%20tnrl8ac%20iC%u0103%20%2Ctpannoit%20t3unsnd%20n+1ir0%201hs3sns%20msmmi%20%20l95/%u2212o.%20em%20hspueai.smS%u0103re%22%20a%20ri0ttltf3o8be%20nah%20%20ds%223%3Dmmhsxfli%20%20%u2009e%3Ae6%3Bpcm%20aci%202%20ceSai%22sta%20i%3C%20a-nrete%3C%20yl%22-%20usutezlfn-c0e%20%20aa/aoN%23l%20f%3Er0P%3Eam%3E%20%3C%3Estech%3D%20trlmapslS%20r%20rsl%20iilm%22a-%22%3Dl%201ztpfs%20%22%3E%20nreia/%20%2334cm9%3C%3D%3El%20aiaast6a%3C%22%u0103fl%20ieutes-an%u021B8eaopc%20cts%20%3Arilnux%20o4eoe%2C%3A%20b%203dn%20a2/ieam%20S1raeu%20%20r%3C2%20uox.%20%3Ce%22t%CEvsianti%20z%u0103uf%20%3Eid%u0103%20tscmaee%20%20oa%20e%E2e%20u%3Aff%u021Bun%20ao%20aiadipb%2C%3Dmm%20%20i/%20i%20u0eeld%3Bdrt4eip%20%20-ne%20%20s%22emu%EE%20ssaS%20nlla%20ec%20nao%3Ccssucai2t%20seaud%200%u021B%20t%u0103i0s%20r%u021Betar-n5ieTieyemase%u021Bittlm.an%2C0rl%20%20lauons%2C%20rso0dzdti%20t%3Edcuueer%20%20l0miledidm%20d%20ii%2Cip%20balsiraa%20eriaarou%20irceSinui%20%20%20i%20sa%20rti%20uen%20n%25l%29l%20ines%20ies.eo%20%20eAcli%20d%20maeljnlnRt%20%u0103itte%20iah%20tcavanpiinlit%20el%20%20t%20%20esdee%20reuia5ieaeroaertdral%2Cienot%u0103ealumaoas%20ra9.emr%20%20t%20%20f%20%3Cd%20n%20cpt%3C%20rpt%3Aml%3D%2Cv%u0103udhi/ia%20%20dur.t%20f%28wiei%20ceva.mitm/esim/meio4oM/sp%22tnh_/pa/%20t7-sodw%20noaumdarin8fg%20ka6g3cdrcs7%25j2onte/2x%25bl4po9o8or_%20S0noSur%20_sga_lompu%25Ipl_r1f2h1%208%u01037c957%202mp2l7pm0r%22%25sg-%2Cns/%20ahfetawteu_uneal/irmi/kii.2l6icrni0i7nte/o.u%22/4moht%20to_ma7%3ArparMIodikIo_hnd%3Eoh_-5gwgp58a7%25atm728g2spug03M94k/Mnj_0nof_tx-stp_-noaunmrain8fiu286g3c6/037%25j27f.j%222t%25/_p%3D%229%20%20or_/ii%227S2r.00mg_0oi%3Ct%3E%22p._immd/1p8/%20iUm7_2/nmciprw/s%3Dauho0so%22tsh_hum%22%3Cn58%3Ef%20eam%202dc%3D%20fimam2scs%22ipd%25laotros8-r%3Aelm%3Dop%22osbgtarzFx%22dmIE%20/%3Aho%20h%20%23n7sbf5%3C%3El%20aoa7sr%20itS%3Dg-%20%22%3Dn_i%3D/f/s3p%3Be%3Ea%20il1%200%20%20lmD7%22%20sm%20%20ipUm-%20%22%3Du-%20vyffsaf%22ataelf_ta0%3Dc-%3Er%3Ecoi4ph2m%3E0%3B%3Cr%3C0i2%3E%20nEa.%22s%20%22%20%20fdt-%u0219raes%22eylt%u0103ao%3DstetSa%3Amx0reu%20ov%3AolaueF%3C70s%20%20e/%22U%3Efs%u021Btu%20ssl%20ueatpsgiaa%20nnaczur%20%20l%3C%20cueol.2%20u%2CUm%20%20poamc%20%22esirgnrfraioct%u0103e%20ttl%20%20lcensrnil4r3u%20iti%3CrlebJlsaaDil%20u%20cfi%20%20lt%20aosurotirg%20sttie%3C%2CpnCs%20f%20%20d%20Se%29ic%20a%20%20ea%20ase%20t%u0103pureema%20c%u0219%22aep%20%20e%20z%20%20%20%u0219van%20%28%20arimu%23.%20Ssmtt%3E%20%2C%20%20riial%2CUtsSteacrlcrre%20mpneeatteioroc%20a%u0219c%u021BpmiNeonlaun%u0103sceNu%20uooZoiil.napi%20mm%20e%20ieoe%20o%20zlth%20%20%20lioliee%u0103n%20redmete%u0219e%20a%20lmreagr%20m%20op%u0103zr%20a%u021Becip%u021B%20oiad%20%20iriru%20a%20eaScu%20tsttD%20%28o%20%2Cneta%29alim%u0219%20g%u0103n%20iac%20gr%u0219ase%u0103nJatmd%u0103%20i%u0219Easai%u0219enri%20Nenncn%20uasgeimob%u021Bt%20%20nidceg%20ita%u021Bindaalifc%20%u0103et%20dsi%20uedUeueaogdiapca%20gl%20u%u201EioiAna%20%20ioia%u0219gi%u021Bau.asparuse%u0219i-eeieUs%2Cb%20e.id%20sia%u021Be%20ealiz%u021Bvurpcaiiiea%20itffilJar%20e%20ar%u0219%20unl%20am%20%u021Bni%20tr%20%EErpiia%20azescieci%20er%20%3A%20n%u0219%20ldir%20h%2Co%u021Biauieeh%20%20t%20%20ilog%20cooiaactimal%20%20i%u021Bi%20%u0103gp%u201Dma%20%20rzi%20i%u0103nc%20me%20%20aiacle%20%u0219ti%20muundcmu%u0103%20amhrhi%u0103mreblueruieeo%20%u201D%2Cleai.o%20cteAta%20sa%20sm%20cpcuua%20rfi%20modrine%20taetSii%20cma%20umur%20h%20ler%20r%20%20t%20mt%20eeuimeum%20en9%u0103%u2212mp%u0103eu4%20.%20%u0103%20ner%20%20%20suumeCtaoi%2Cacu%20%20%20Senm%20%u0103trnrmeripii%u0103rtef%20%20pK%20aoir2d%B0%20etd%u021B%20gndc%20a%20aeororz%u0103rnuccaarcilrmene%20%u201Enoi%20ri%20%20aleil%2Cifi%20tilt%20actunore%u0219%20ldtrp%20%2Cmo%20rre%u0103%20iarnuIi%20cnUtsuo%20%204s%20or%20ra2un%20t%20raUi%20as%20aerd%EEhnra%20u%u021Bi%20ii%u0103noc%20p%u0103ialdm%u0219i%u0103iSas%20%3C%22m%20%20ect%20/smc%20sdclpppc%20h%3A.il%20nf/./ned%20%20/wu2r%28.%20126u%3E%29%20r.a%200msrmt0tjhsss%3Agd%3Dm%u0103as.hh/exe%20wm/arr0.2e/s0iroar11s%u02197%2000.n0epegsdxap%22p%3D0%22%22pa/rew%3D%22iml%2000min%20.a%20hi02a/ol%3E%22%3Cuuum%20%20ta0u6g%22sefji%20tf-ssto6eeyxo%20egpct%3A%3A%22l%22o407omup4%3CoaF%20cs-e0%20/fna0l%3Etlaptlpcte%3Dgnsgatlii3aUnsi%3B/lera%20r%20%3CD0snde%22%3Diriu%2Ct%20/%207%20mencalpsl%20mesah%20grfe1ghiren%2Cna5%u021Bmi%20%20x%20%20eauis%22ecn%20ametea%20lni%20eargniotpe%22uc%2Cu%u0219ouzeacno4s%20acaol-.%23eraxs0u%3Ee%20e%20riafnoa%20r0%20e%20srcftr%20%2Ciolemi%20etp%20%20%20a%20npr%20e%3Daatnau%20sri%20%20re%u021Ble%20%20%20%20s%20-loml%20Ptpaoli%u0103aaraineciaE%EE%u0219%u0219%20dolLliidaibait%u0103sl%20lloauem%20eereoctnunri%20errpui%20ltlcinrdel%u0219ti%20%20%20a%20utiesdo%20%20ufnai%20e%2Cro%u0103d%EEmli1aei%u0103%208aaeteloirdlSep%20%20rya%20eaagpai%20%20iU%20staoueaoor%CE%u021B9.ln%u0103%20%20%u0103grpeealeeo%u0103ear%20sa%20casr%20tu%20c%20%20t%u0103t-cmrvienali%EE%2Ci%20ep%20%u0103%u0103eb%20rnjiler%20%20oao%20al%20o%u0103af%20nrrsena%20auta%20%20%20teslnntlc%20ci%2Cina%20%20a%20s%u0103igtcnniee%20tga%20uiV%20tmVu%20r2eyg2iootar%u0103%20t%20u%20pil%20lalccaaapoepiitagpnaleaze%EEofOtvaec%20aiedb%E2.sipemiu6nuteae%20n%u021BztPc%20%u0103lrfmu%20a%20eizz%20rb%20ann%u0219rco.%20s%20%u0219i%20iaul%20aoite%20%20e%u021Brec%E2taeoimirptlu%20e%20hc%u0103ire%20rsin.a%20oaen%20rau%20%20r%20enhp%u021Bta%u0103trld%20itbis%20o.%20tdp%20i%u0103%202%u0103s%u0103vn0it%20unpozatsia%20nlaapc%20%u021B5esgeen%209%20m0iesn%29m%3E0%EEi0%u0103m%202.%20aei%20/s%20v%u0103uef%3C-c%20nt%20aayajvee%3Dftr%20a%20%20is0%22%20%200%u0103%3Booz/a%3Ce%20%3A0%20mt%20s%22o%3E%23%20rlUtFi%3E%3D%20%20-l/Ues%u0103%22ini%20ul%20fcl%20%22u-seu%20%3Ctapicn%22s%3Efre4V/-m%3EE%20%3C%E2%20/%20hSelpc%3E%3D%20iviuapslrms2rsl%20%20%20s%28%22a-%22fcahztpfas%3Cm%20nre%20r2i%233Ecme%3C%22%3ElU4icatnDr%3C%22ufe2i%20ut7sst%20i7eaoxadlesu%3A%3Acictx%20o7irmu%3AlFaeos.7//%20rNe%20rksa%u021Bc%20%20ep%20csaeishla%20art%20surpandian%3Cenieut%20%20osllena%20l%20hpt3sferrull%20a%u0219%20esfD%20%3DnePisiiieAidetr%3Birs.a%20e%20eC%20nnie%22iiale%3Dia%20%u021B%3Anasp%20iiasei%20aAn%2Crxmenmnlro%20%20%20Teib%20sc%u021B%u0219ieia-ilnasipycotO%u0103.ltui%20Mlo%200aoiaus%2Coient%20l%200r%20trai%2C%3Etjanceaa%20%20dceire%20%20imiia%u021Btkgtig%20aa%20dnpaisoa%20o%20eruepmftmee%20casob%20t%20tcn%20%20%u0103unrre%20i%20lai%20cmiitzM%u0103a%E2m%3Bo%20%20ci%20%20tdaUietecei%20%2C%20%20%20%u0103Sc%20ire%20ranoaet%20ml%20%20la%20tf%20aapl%20%20ied%u021Blu%20tt%20aarnn%20liTseaeeopcm%u021Bdu%20mtm%20Uasi%20degT%20ir%20ll%20%20noiNeu%20aaeaCnm%2Cue7zmb%20o%2C%20%2Cmtas%20aii9lli%20ukduieaajma%u021B%2C%20ti%20nruairca%u0103id%20e%u0103%20%20n%20%20%20iau%u021Bua%EE8r%20nmsdi%20%u021B%20a%E2%20eu%20%u0219is%20toteamaeRtataiei%20%20aaaLersatilnalcaipinrreauirlil%20%20ne%20%20%20i%20niacl%20%20in%20ia%20%2Clr%20aei%20rl%20%20bmlmn%u0103d%20alri8ri%20zti.s%20t%2Citi%u021Bppnull.U%20m%20leuiueat5b%20iezei%20%20rtt%2Ci%2C%EEnsluulr%u0103evui%20e%20.udnac1itr2%20n%2Cies%5D%20drltSg%u021B%20%200lmie%20%20mt%u0103eoaeAal%20-a%20%20n%20muchtr%20tdedcp%u0103%5B%20%20uxuiienis5%20hiu%u0103ca%u021Ba%200lmre%25%20%u0103%u0103%20%20gcG%u0219a%20%u021Bhoaooihadtelaaaean%20ne%u0219uramUdediv%20%25lecbieS%20p.xm%205Srr%20ai%3C.ie%20mpm%20%20atv%3C/imnud1%22mudmoal%20vsNivontpnc%20%2Cconamaod/d%20c%20tm0%3C%u0103c%3E%3D%20vrmlahsl%20ei%20rsl%20d3eo%22a-%22nul%20ztpf%3D%28ba%20nretn%22043dcm%29%3C%20%3ClNbiaapt0i/%22%20fcc%3E%3Dutnsoa%20sleto%20rsi%20se%3Ad%3Cam%22x%u0103on%20%3C%20/%3Ai7mc2%3D%20%22ai%3Eapsletn%20rsl%20%20ga%3D%22a-%22%22if%22ztpftc%3E%22%20nre%3E%u021Bhe%233dcm%20%3C%20%3ElN4i%20a%20t7s%3C%22%20ff%20itutisap%20taero%3Ddo%20ls%3E%3Aianiexdo%3Bslmr%3Amb%23%20%20rid%20/%3ENt%u0103setnpuleuts%20%20%20inpaoafl%20iram%20a%20m%20%20S2e%20p%u0103%20enssmat%20au-o%20pran.ymftti%u0103%20t%u0103a%20daru0o%3Du%20at%20omi.etpids%3B%20%20o%20a%20t%20aeeap%3Ce%227e%20sds%20pi%20e%20m-ueerc%20%20/r%20%20amc%20%3E%u0103%20tt%20as%20No%20Pnuusr%20aurp%20-%u0103ld%u021B%20i%20yo%20smiemtmdr%E2%2Ca%200%E2lalsaeo%20a%20u5r%E20l%2Cr%20id%u0219%3Eu%20r%20ei%20e%20ltm%E2eepcuu%20a%20me%20en%u0103%20l%20anal%20du%20dedslp%20tee%u0103nei.%20a%20naNn%20%20tumurSzczP1r%20%20rna%2Ca%20lserr%20dnueofeda0dn%u021Bea%20n%u0103%20s%2Ct%u0103oio%20c%u021Bti%u0103m%20%20%20n%20%u0219u%20%20macoila%u0103eo%EElm%20Uisa%20tp%u0103cs%u0103et%20%201ep%20mtidioi%20%20rtiog%20xmvere%E2%203%20oc%20ntcirmm%u0103c%20trm%E2riaet%20.a%20ieniPuu%20aouaunmat%20eio%20sdurjirtcasaa%20a%20%20deta%20ereb1%20antoo%E2al3fv%u0103t%20dbt%20%20eilmtruaztod%20%2CliellaNeuipuu%20snm%20in%u2646e%20b%20%3C%22mib%u0103et%20/sd%EEcancap%20%20rty%3A/.niueoi0.eiii/o2tpd.e8/n1%3Eu%20it/5/marn879uhisS_ej4cap%20%225%3D7becmt0/%20p%20oudlxt2s2nasmn/d4%2Chp2yeina0c0o702i1o//6%202ap2-8peat94_t%22opu0n.8/%u0103.tg2d_ai.m%3D2%22%22/ltgew%3D%220o1t00mi2l/d%20h%200npuac%3E%3D%205e4hapsl9a70rsl%20jm%201%22a-%22tt7pztpf%20dg9%20nre%22%20%220%233dcmN%3Cg%3ElN4i/aht7%20%3C%22%3Cfcsiiut%3Dsb%20%20ete/op%20ptpsx%3A2pacgxmo/csmr%3A2beencud0/7%20eeme/n6%20tuPf-%20paatNm_lhepe%20t.%u0103htons%u0103ti5aop%u0103a%3Al%20tdruaia%20oaaueolftbnrt/eaeg%20an/f%3Dbil%20%207ci%20iuire%20%3BcalU%205z%20uadae0r%22%20el%20ii%20pioupv0%u021Bor%20%20satdaeBndomt%u0103esesu%20r%20apixssrl%20s%20%20--ctan.ouye.et%20net%20aftupv0%20%20eu%20opoudsttr%u01030iieosen%3Euctvi%20%20apr13deprelJbn8%20ntia6%20oaisl%20asll%20irneeoo%20riad%u021B%u021B%20i2%20%20%20nienmarpedet4so%20aaeshxr%20%u0103z%20plae%u021Bceli%20reiu%20t%20%u0103%20Uanl%20%u0103%20%u021Be%20rrireara%20%20%20odluei.%20niN%20L%20r%20%20z%20e%20%20d%20nctfpdau%20ebctioinbp%u0219tto%20AVpiesiio%20%20%20sots%u0103t%20%20l%20TmuuG%20ilAatsai%u021Bfsaesattc%20eapmeu%20%20te%20n%20elrenug%20%u021BXs%u0103%20rpecaanrlp5%20ua1aad%20%20%2C%20i%20alous1ord%20%u021B8%20no%20iLya%20i%EEneealcau%2Clc%20e%20%20-i.pcrap%20dacainisu9%20e%u0103p%20%20udsml%3Cipda%20%20%3CamVigl%3D%20fi2stuscs%22ulr.laotvln2-r%3Aetip%u021Bp%22oser.srz7x%3Ea%20pd%20i%3Aht%20na4t%22s%u0103fl%20%3CNtaaaltlilt%20%3D2ci%3Dunrita%20sl3a%3Bsrsi%20l%20%23a%3Cam%220t%3Eo%20%3C%20/%3Eie%20c2%3D%20ieuta%3Csle%20nersl%20%20sae%22a-%22%22iftztpfto%3Em%20nre%3EXh2%233dcmL%20s%3ElP4iga-n7N%3C%229fytiret%20st1atue%u0103o0i%20a3sr%3Aorsc%u021Bxeodo%20ia%3AnbSCiasdt/imuselatpe%20eae/n%20eetle%20%20f%2Ctr%20eliazrp%20t%20l%20tu%2C%E2u%22cm%20dme.fl%20a9adierf%20n%20%20aciaaoacsbT%3D%20ruvo/cilt%20%EEiin%3Bp%20%u0219%20e%20%20%20euut5%3Ci%22cnusastace%20ul-ap%20%20vig/i%20ancmz%3Enles%20%20rplur%u0103ftNsuno%20%u0103mi-t%20A%20tinyl%20eae%20ftettocsd0atrol%20%20osnaesea0enlW%20mf%3E%u0103saL%20le%20d%25llpr.afsd1pe%20ac%u0103idperndrnc%20r%u0103%20%20%u0103pa%20el%u021B%20ureotsm%20ebnded%20%20%20tdciz%20%20ile%20o%u0103isitiiaepeei%u021Bsel%20tcmionN9uprSiuS%20%20on%20%20%2CstrroT%u0103%20ee%u021B%20errreeld%u0103ietsjlicod%2C%20i%20t%u0103ctet%20li%20ia%20l%20%20edabctsaoa%20teotbiara%20%20ir%20do%20pa%20%20raumeao%20a%20%E2e%20isfe%u0103oN%EEul%u0103ptpp%20isgebu%20u%u0103pf%20%20%3Bia%20%20ti%20isiticaoinasafd%u0103fi%20aame%20lc%20u7catiKdeunopnEurob%20eatec%20nr%20.p%20ai%20daeedt.p%20e%20%20peepcn%20apc%20ilvu%20te%20r%20tu%20euir%20n%20%u0103as%u021Bdcaiacuie%20coarrse-at%20t%20rttrrn%20pern%20ram%20tap%20%20esrg%u021Bopinlser%u0103rndr%20n%20l%20%20aiipo%20crrc%20matiuacfaa%u0103el%20eespne%20vllreifrzs%20tettatitrolndeeiraoirm%20%20%20eN%20eena%20ieiu3prloa%20sarA%u021Btoeaamao%20i%2Cln%20iagi%20e%20%20%20tce%20tgc%20%20%20slnaa%u0103%20eooi%CEi%20%20ci1i%20c%2Csieiee9rads%209mtndae%20n%20ccn%E2nnlorv%20taeceteom%u021Biesc%20ehemeonnn8crS%u0103uTro%20r%20p%20riena%20%20%20aee%EEsemtdurdur%20ebrt%2Cne%20r%20t%20cett%u0103til6%20ldal%20ad%20dearztit%E2dteeuiamiufmsat%u01032p%u0103.a%20%20o3ip%20%20RK%20p%B0ae%20%20m%20m%29%u0103avr%3C%3C%3Em%20leammd/rrri%3Ei%20%20etrim%20mmm%20vidmm%203iCd%20mvi8%20.em%3Ep%3C%3Euma/dmmmddo%3C%20ppmn%20rmmhpitmu%3C%3Cmmm.%20s%20%20%3E/%3C%2Cv%E2h3m%20m%20/c%3Chm3%3E%20%20%2C%20m%3Cd%3Ee%3Eoivm%20%20%20%3Eacm%3Ev%3El%20%20mmtr3ihanpnfms%3C5tnt%20%3Cc%3E%20cpay%20mim%29emim%u0103mmvy%2C%20/%20%3Emamta%3C%u0103ivt%20bbmaumnom%2Ciao/%20tokCn%28%20e%3B%20t%2Cptmcbtnm%20%7B%3Ce%20mu%20xr%20telt%20%u2212cmsl%28se%28%20%3EaytNl/smtmmbmma/%20o%28%22nvt%20%3D%3Bifd%3Cmm%20ro%20.%20Ede%3BetemBstb+namam%20.%20h%22ico%20%20o%7Be%3C%29iem%5Dtmmo%20tbdni/0ep%5B%3Dy%20%3Ca%20ne%3Bln%3Ettmymon3%3Bn%20ei%20+mmis%7Dot%20%3Ea%20mbg%20nmttE%20ne.mloBtslitagamty%20cnnll%22mme%20sm%28fimvat%20k%20mnN%3Dn%20%20t%28cmn%20l%20.ieie%20n%3C%20itnC%3C+kmgsaet%20hb%29amngn%7B%5D%20%29cm%29ltako%3Di%20%20%5Bba0n%20tns%5D%3DaensltaklCts.%5Baaie%20%22%28strmn%20mep%22%22lms%20ma%7D%22.%20skm%20cmm%20%20ue%20e%20lcstldtn.lssI.temieNaesdcm%20blcsmic%2C%3Ba%29%22e%29imrodmym.%20%3B%20%3D.cu%20tbr%22T%20t%22megvlrBm%28+sn%20eyle%20%20.tNtd.iemm%22p.%20cmac%22bekepmmmmaeim/itc%22ec%3Em*%3Castehchma%20aeumce+%3D%20vc%20nsi%20%3B%3Bhrtk%7Ds%3Cmn%20mer%3B%3Emgbb%2CmmsEwmhgpamyiene%20inNsnnneNeyt%20rhlasldwch%20i%20lt%20*otN%20mmncetlluotFmecercu%28ni%22gs%7Bm%20td%20o%3Dcotmgoevemmuogwmte%28tonniyldB/ifmnIlDt.%20tso.%22uiiWg.%22L%29%20m%20osmgd%3Bmi%7Demw.tEt/%29smetyotmr%20%22crodlihoe%29tt%20soacid%20nkhtml%20o%20dcss%22%20oimummmpwswfmrCnnikie/em%20dtcotwini%7Bff%20enmn%20%28eol%20e%29g%20suto.ih.em%20g%28aomm%20nntt%20%27.%20lmmdan%20auwm%29pmiiesw%20dymd%20our.n%28%20tht%3Deme%20amBn%22Een./Deoypy%27%20%22dmr%7Bn%20p%20p%28%29r%20D%20Dmo%20dn%20r.fsroee%20spncgdl%20iastnpImwc%7Bnmcoom%28%20%27wt%3B%3Dy%29d%20%20%28ion%20sDm%3Bomioe.wml%21vlhsLo.t%27.metdss%20%27m%29h%20%29b%7Dmm%20mu%20m%3Cmim%20cr%20%3Emm/oicomcmmsttc%20mommo%28e%3Em/%20oc%3Btm/mm%20c%7Dyomal%20%20mn%20y%3Epmfs%20tnlaprmgmiirmcmC%28ahsmr%3Cmdo%20md%29mtmmcmhv%3E%3D%20m%3C%7DTmmmdwYrmltasL%3Eme%22mOoolm%3Damt%27wrb%21%3Cyh%20%20h%3C%20atg%20%20");
+
+orig = orig.split("");
+
+
+
+passnum = orig.length % password.length;
+
+for(i=orig.length-1; i>=0; i--) {
+
+
+
+  passnum--;
+
+  if (passnum == -1) passnum = password.length - 1;
+
+
+
+  pos1 = i;
+
+  pos2 = i + password[passnum];
+
+
+
+  if (pos2 >= orig.length) continue;
+
+
+
+  char1 = orig[pos1];
+
+  char2 = orig[pos2];
+
+
+
+  orig[pos2] = char1;
+
+  orig[pos1] = char2;
+
+
+
+}
+
+
+
+orig1 = "";
+
+for(i=0;i<orig.length;i++) {
+
+  orig1 = orig1 + orig[i];
+
+}
+
+orig1 = orig1.replace(/mmm/g,"\r\n");
+
+
+
+document.write(orig1);
+
+
+
+//-->
+
+
 </script>
 
-
-
-
-}
-</script>
-
-<div>
-  
-</div>
-
-  
-
-  
-
-
-
-  <div id='quiz_container'></div>
-<div class="a">
-<div class="header">
-  <h1 style="size:40px;color: white; "> Sistemul Nostru Solar</h1>
-
-<div class="tab">
-  <button style="color:white"; class="tablinks" onclick="openCity(event, 'Mercur')">Mercur</button>
-  <button style="color:white"; class="tablinks" onclick="openCity(event, 'Venus')">Venus</button>
-  <button style="color:white"; class="tablinks" onclick="openCity(event, 'Pamant')">Pamant</button>
-  <button style="color:white"; class="tablinks" onclick="openCity(event, 'Marte')">Marte</button>
-  <button style="color:white"; class="tablinks" onclick="openCity(event, 'Jupiter')">Jupiter</button>
-  <button style="color:white"; class="tablinks" onclick="openCity(event, 'Saturn')">Saturn</button>
-  <button style="color:white"; class="tablinks" onclick="openCity(event, 'Uranus')">Uranus</button>
-  <button style="color:white"; class="tablinks" onclick="openCity(event, 'Neptun')">Neptun</button>
-  <button style="color:white"; class="tablinks" onclick="openCity(event, 'Pluto')">Pluto</button>
-  <button style="color:white"; class="tablinks" onclick="openCity(event, 'Despre noi')">Despre noi</button>
-  <button style="color:white"; class="tablinks" onclick="openCity(event, 'Documentar')">Documentar </button>
-  <div class="dropdown">
-    
-  <button class="dropbtn" onclick="myFunction()">Mai multe
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-content" id="myDropdown">
-     <a href="https://docs.google.com/forms/d/1LyAjVL5zFjXiC2DLV9JNGMeXHoLBg7u3S9gktE9Sf3M">Quiz</a>
-    <a href="https://ro.wikipedia.org/wiki/Sistemul_solar">Surse</a>
-    <a href="https://www.nasa.gov/">Nasa</a>
-    <a href="http://www.dunarea-info.ro/">Liceul Teoretic Dunarea Galați</a>
-    <a href="https://sfmaria.gl.edu.ro/">Liceul Teoretic Sfânta Maria Galați </a>
-   
-  </div>
-  </div> 
-</div>
-<div id="Documentar" class="tabcontent">
-<iframe src="https://www.youtube.com/embed/0cwcLy6zilE;autoplay=1&mute=1" width="700" height="500" frameborder="0" allowfullscreen></iframe>
-</div>
-
-</div>
-<div class="b">
-  <audio id="player" src="file:///C:/Users/Andrei/Downloads/Nasa%20-%20Saturn%20myfreemp3.vip%20.mp3"></audio>
-<div>
-  <button onclick="document.getElementById('player').play()">Deschide</button>
-  <button onclick="document.getElementById('player').pause()">Pauza</button>
-
-<div class="a">
-<div id="Pluto" class="tabcontent">
-   <h2 i class="fa fa-star"style="font-size:30px; color:#DBCECA"></i> Pluto <i  class="fa fa-star"></i> </h2>
-  <p i class="fa fa-star"style="font-size:30px; color:#DBCECA">Pluto (numit adesea Pluton, mai ales în lucrări mai vechi) este a noua planetă din Sistemul Solar, a doua ca masă după Eris și, ca volum, cea mai mare planetă cu descrierea de "pitică". A fost descoperită în anul 1930 de către astronomul american Clyde William Tombaugh. Obiectele cu orbite asemănătoare cu cea a lui Pluto se mai numesc plutine.
-   
-
-Din totdeauna a fost și este a noua planetă a Sistemului Solar, atât în ordinea distanței față de Soare, cât și a descoperirii. Pluto împreună cu satelitul său, Charon, sunt uneori considerate sistem binar, deoarece baricentrul orbitelor nu se află în interiorul niciunuia dintre cele două corpuri. </p>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Pluto-01_Stern_03_Pluto_Color_TXT.jpg/1200px-Pluto-01_Stern_03_Pluto_Color_TXT.jpg" width="500" height="500"><div>
-  <p i class="fa fa-star"style="font-size:30px; color:#DBCECA">Pluto se rotește în jurul Soarelui în 247,8 ani pământești, pe o orbită cu rază medie de 5,91 miliarde km (39,3 ua). Are o orbită foarte excentrică (0,248), astfel încât uneori Pluto ajunge într-o poziție mai apropiată de Soare decât Neptun, a opta planetă a Sistemului Solar. Înclinarea planului orbitei este de 17°12' față de planul eclipticii, ceea ce este iarăși ieșit din comun. Diametrul lui Pluto este de 2390 km, reprezentând doar 18,74% din cel al Terrei. Înclinarea axei de rotație a planetei este de 57°24', iar perioada de rotație este de 6 zile 10 h, desfășurându-se în sens invers celei a Pământului (de la est la vest). Densitatea lui Pluto este 1854 kg/m3.</p>
-   
-  <h2 i class="fa fa-star"style="font-size:30px; color:#DBCECA"></i> Charon <i  class="fa fa-star"></i> </h2>
-  <p i class="fa fa-star"style="font-size:30px; color:#DBCECA">Charon este primul și cel mai mare satelit natural al planetei pitice Pluton. Este numit după personajul mitologic Charon, luntrașul care trece sufletele morților dincolo de Styx.
-
-Charon este unul dintre cele mai mari obiecte transneptuniene, fiind descoperit în 1978. Descoperirea lui a permis determinarea precisă a masei și dimensiunilor lui Pluton. Charon și Pluton alcătuiesc un sistem de planetă dublă, deoarece centrul de masă al sistemului este deasupra suprafeței planetei pitice Pluton, între cele două corpuri.</p>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Charon_in_True_Color_-_High-Res.jpg/1200px-Charon_in_True_Color_-_High-Res.jpg" width="500" height="500">
-
- </div>
-</div>
-
-
-<div id="Despre noi" class="tabcontent">
-   <h2 i class="fa fa-heart"style="font-size:30px; color:red"></i> Despre noi </h2>
- <p i class="fa fa-heart"style="font-size:30px; color:#b0e0e6">Suntem doi liceeni din Galați, la inceput de drum. Iubim informatica amandoi pentru că am înteles că fără ea, nu există viitor în tehnologie. Visul omenirii dintotdeauna a fost să cucerească spațiul. Mai întâi, pionierii aviației au cucerit vazduhul. Este rândul nostru, al generației tinere să improvizăm, să descoperim digitalizarea, programarea, web design-ul. Tocmai de aceea, proiectul nostru privind platforma noastră care se vrea educațională prinde contur și se perfecționează. Oricine va dori să acceseze informații și fotografii inedite despre sistemul nostru solar este bine venit pe platforma, pe care noi o numim în glumă, primul nostru hyperlink real.
-
-  </p>
-   
- </div>
-</div>
-<div class="a">
-<div id="Mercur" class="tabcontent">
-   <h2 i class="fa fa-star"style="font-size:30px; color:#DBCECA"></i> Mercur <i  class="fa fa-star"></i> </h2>
-  <p i class="fa fa-star"style="font-size:30px; color:#DBCECA">Mercur este planeta cea mai apropiată de Soare, înconjurându-l o dată la fiecare 88 de zile pământene. Luminozitatea sa variază între -2,0 și 5,5 în magnitudine aparentă, dar nu este ușor de văzut fiindcă cea mai mare separare unghiulară (cea mai mare elongație) față de Soare este de doar 28,3°, însemnând că se poate vedea doar imediat după apusul Soarelui. În perioada 1974 - 1975, Mercur a fost studiată cu ajutorul sondei Mariner 10, care a cartografiat doar 40 - 45 % din suprafața planetei. Începând din 2011, sonda spațială MESSENGER orbitează în jurul planetei pentru a studia compoziția chimică, geologia și câmpul magnetic. </p>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Mercury_in_color_-_Prockter07_centered.jpg/1200px-Mercury_in_color_-_Prockter07_centered.jpg" alt="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Mercury_in_color_-_Prockter07_centered.jpg/1200px-Mercury_in_color_-_Prockter07_centered.jpg" width="500" height="500">
-  <p i class="fa fa-star"style="font-size:30px; color:#DBCECA">Suprafața planetei Mercur este foarte similară în aparență cu cea a Lunii, pe ea existând câmpii întinse gen „mare” (numele de mare a fost dat de observatorii din antichitate care credeau că petele negre de pe suprafața Lunii sunt mări și oceane iar părțile luminoase sunt continente) și cratere numeroase, indicând că planeta este geologic inactivă de miliarde de ani. Numărul mic de misiuni fără echipaj spre Mercur dovedesc că geologia acestei planete este cea mai puțin înțeleasă dintre planetele terestre.</p>
-</div>
-
-<div id="Venus" class="tabcontent">
-  <h2 i class="fa fa-star"style="font-size:30px; color: #8B7D82"></i> Venus <i  class="fa fa-star"></i> </h2>
-  <p  i class="fa fa-star"style="font-size:30px; color: #8B7D82"> Venus este a doua planetă de la Soare. Este numită după zeița romană a iubirii și frumuseții. Este al treilea obiect natural ca luminozitate pe cerul nopții după Soare și Lună. Mărimea sa stelară observată atinge -4,6 m și este suficientă pentru ca lumina reflectată din Venus să creeze umbre; rareori este vizibilă cu ochiul liber și în timpul zilei. Deoarece Venus este mai aproape de Soare decât de Pământ, este întotdeauna vizibilă la o distanță unghiulară scurtă de acesta; alungirea sa maximă este de 47,8 °. Distanța lui Venus față de Pământ variază de la aproximativ 40 de milioane de km până la aproximativ 259 de milioane de km. Situată la circa 108 milioane km de Soare, Venus își parcurge orbita în 224,7 de zile. Rotația în jurul propriei sale axe este foarte lentă, durează 243 de zile și are loc de la vest la est, în sens invers față de rotația celorlalte planete. Venus își atinge luminozitatea maximă cu câteva ore înainte de răsărit sau după apus, motiv pentru care popular este cunoscută sub numele de Luceafărul de dimineață și Luceafărul de seară. Planeta nu are nici un satelit, caracteristică pe care o împărtășește doar cu Mercur între planetele din Sistemul Solar.</p> 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/PIA23791-Venus-NewlyProcessedView-20200608.jpg" alt="https://upload.wikimedia.org/wikipedia/commons/a/a9/PIA23791-Venus-NewlyProcessedView-20200608.jpg" width="500" height="500">
-  <p i class="fa fa-star" style="font-size:30px; color:#8B7D82"></i>Fiind una dintre cele mai strălucitoare obiecte de pe cer, Venus a fost un element principal în cultura umană încă din cele mai vechi timpuri; a fost o inspirație primordială pentru scriitori și poeți. Venus a fost prima planetă căreia i s-au trasat mișcările pe cer, încă din al doilea mileniu î.Hr.</p>
-  <p i class="fa fa-star" style="font-size:30px; color:#8B7D82"></i>Suprafața venusiană a fost subiectul speculațiilor până în a doua jumătate a secolului XX, când a fost vizitată pentru prima dată de nava spațială Mariner 2 în 1962 și de prima navă care a fost debarcată cu succes, Venera 7 în 1970. Norii groși ai lui Venus fac imposibilă observarea suprafeței sale în lumină vizibilă, iar primele hărți detaliate nu au apărut până la sosirea orbitatorului Magellan în 1991.</p>
-</div>
-
-<div id="Pamant" class="tabcontent">
-   <h2 i class="fa fa-star"style="font-size:30px; color: #d4f1f9" ></i> Pamant <i  class="fa fa-star"></i> </h2>
-  <p i class="fa fa-star"style="font-size:30px; color: #d4f1f9"></i>Pământul (numit și Terra sau „Planeta albastră”) este a treia planetă de la Soare și cea mai mare dintre planetele telurice ale Sistemului Solar, atât pentru masă, cât și pentru diametru. Este singurul corp ceresc despre care se știe că adăpostește viață. Aproximativ 29 % din suprafața Pământului este un uscat format din continente și insule. Restul de 71 % este acoperit cu apă, în mare parte de oceane, mări, golfuri și alte corpuri de apă sărată, dar și de lacuri, râuri și alte ape dulci, care împreună constituie hidrosfera. O mare parte din regiunile polare ale Pământului sunt acoperite cu gheață. Stratul exterior al Pământului este împărțit în mai multe plăci tectonice rigide care migrează pe suprafață de-a lungul a multe milioane de ani. Interiorul Pământului rămâne activ cu un nucleu interior din fier solid, un miez exterior lichid care generează câmpul magnetic al Pământului și o manta de convecție care conduce tectonica plăcilor.</p>
-  <img src="https://www.capital.ro/wp-content/uploads/2019/07/pamant-1024x1024.jpg" alt="https://www.capital.ro/wp-content/uploads/2019/07/pamant-1024x1024.jpg" width="500" height="500">
-  <p i class="fa fa-star"style="font-size:30px; color: #d4f1f9"></i>Atmosfera Pământului este formată în principal din azot și oxigen. Regiunile tropicale primesc mai multă energie solară decât regiunile polare și este redistribuită de circulația atmosferică și oceanică. Gazele cu efect de seră joacă, de asemenea, un rol important în reglarea temperaturii suprafeței. Clima unei regiuni nu este determinată doar de latitudine, ci și de înălțime și de apropierea de ocean, printre alți factori.</p>
-   <p i class="fa fa-star"style="font-size:30px; color: #d4f1f9"></i>Gravitația Pământului interacționează cu alte obiecte din spațiu, în special cu Soarele și Luna, singurul satelit natural al Pământului. Pământul orbitează în jurul Soarelui în aproximativ 365,25 de zile. Axa de rotație a Pământului este înclinată în raport cu planul său orbital, producând anotimpuri pe Pământ. Interacțiunea gravitațională dintre Pământ și Lună cauzează mareele, stabilizează orientarea Pământului în jurul axei sale, și încetinește treptat rotația acestuia. Pământul este cea mai densă planetă din Sistemul Solar și cea mai mare dintre cele patru planete telurice.</p>
-    <h2 i class="fa fa-star"style="font-size:30px; color: #F4F1C9"></i> Luna <i  class="fa fa-star"></i> </h2>
-    <p i class="fa fa-star"style="font-size:30px; color:#F4F1C9 "></i>Luna este un corp astronomic care orbitează planeta Pământ, fiind singurul său satelit natural permanent. Este al cincilea cel mai mare⁠ satelit natural din Sistemul Solar, și cel mai mare dintre sateliți planetari relativ la dimensiunea planetei pe care o orbitează (obiectul său primar). După satelitul lui Jupiter, Io, Luna este al doilea cel mai dens satelit dintre cei ale căror densități sunt cunoscute.</p>
-    <img src="https://www.fun4kidsinbuffalo.com/wp-content/uploads/2017/02/Full_Moon_Luc_Viatour.jpg" width="500" height="500">
-     <p i class="fa fa-star"style="font-size:30px; color:#F4F1C9 "></i>Se consideră că Luna s-a format acum circa 4,51 miliarde de ani, nu mult după Pământ. Există mai multe ipoteze pentru originea sa; cea mai acceptată explicație este că Luna s-a format din resturile rămase după un impact uriaș între Pământ și un corp de dimensiunile lui Marte, numit Theia.</p>
-     <img src="https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZWRpZ2l3b3JsZC5yY3MtcmRz/LnJvJTJGc3RvcmFnZSUyRjIwMjAlMkYw/NiUyRjAzJTJGMTE5Mjc5Nl8xMTkyNzk2/X2x1bmEtY2Fwc3VuYS1yb3ouanBnJnc9/NzgwJmg9NjAwJnpjPTEmaGFzaD1hYWY4/NmM0NTNiYzA2MjZhYWI2NTgyNzA5N2I5OThmNQ==.thumb.jpg"alt="https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZWRpZ2l3b3JsZC5yY3MtcmRz/LnJvJTJGc3RvcmFnZSUyRjIwMjAlMkYw/NiUyRjAzJTJGMTE5Mjc5Nl8xMTkyNzk2/X2x1bmEtY2Fwc3VuYS1yb3ouanBnJnc9/NzgwJmg9NjAwJnpjPTEmaGFzaD1hYWY4/NmM0NTNiYzA2MjZhYWI2NTgyNzA5N2I5OThmNQ==.thumb.jpg" width="600" heigh="500" >
-<p i class="fa fa-star"style="font-size:30px;color:#F4F1C9"></i>Luna este în rotație sincronă cu Pământul, adică arată întotdeauna aceeași față către el, partea vizibilă fiind marcată de mări lunare vulcanice întunecate, care umplu spațiile dintre zonele înalte ale scoarței și craterele de impact mai proeminente. Văzută de pe Pământ, este al doilea obiect ceresc vizibil de pe Pământ ca strălucire, după Soare. Suprafața sa este de fapt întunecată, deși prin comparație cu cerul nopții pare foarte luminoasă, reflectanța ei fiind doar puțin mai mare decât cea a asfaltului⁠(d) uzat. Influența ei gravitațională produce mareele oceanice, mareele de uscat⁠, și o ușoară prelungire⁠ a zilei. </p>
-</div>
-<div id="Marte" class="tabcontent">
-  <h2 i class="fa fa-star"style="font-size:30px; color:#9C2E35"></i> Marte <i  class="fa fa-star"></i> </h2>
-  <p i class="fa fa-star"style="font-size:30px; color:#9C2E35"></i>Marte este a patra planetă de la Soare și penultima ca mărime din Sistemul Solar. Marte poartă numele zeului roman al războiului și este adesea denumită Planeta Roșie, deoarece oxidul de fier predominant pe suprafața sa îi conferă un aspect roșiatic distinctiv între corpurile astronomice vizibile cu ochiul liber. Marte este o planetă telurică cu o atmosferă subțire, având caracteristici de suprafață care amintesc atât de craterele de impact ale Lunii, cât și de văi, deșerturi și calote glaciare polare ca ale Pământului.</p>
-  <img src="https://image.stirileprotv.ro/media/images/680xX/Nov2018/62003397.jpg" alt="https://image.stirileprotv.ro/media/images/680xX/Nov2018/62003397.jpg" width="700" height="500">
- 
-  <p i class="fa fa-star"style="font-size:30px; color:#9C2E35"></i>Zilele și anotimpurile sunt comparabile cu cele ale Pământului, deoarece perioada de rotație, precum și înclinarea axială în raport cu planul ecliptic sunt foarte similare. Marte găzduiește Muntele Olimp, cel mai mare vulcan și cel mai cunoscut munte de pe orice planetă din Sistemul Solar și Valles Marineris, unul dintre cei mai mari canioane din Sistemul Solar. Bazinul din emisfera nordică acoperă 40 % din planetă și poate fi un semn de impact imens. Marte are doi sateliți, Phobos și Deimos, care sunt mici și au o formă neregulată. Este posibil ca aceștia să fie asteroizi captați, similare cu 5261 Eureka, un troian al lui Marte.</p>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/300px-OSIRIS_Mars_true_color.jpg"alt="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/300px-OSIRIS_Mars_true_color.jpg" width="500" height="500">
- <div class="a">
-   <h2 i class="fa fa-star"style="font-size:30px; color:#9C2E35"></i> Phobos <i  class="fa fa-star"></i></h2>
- </div>
-    <p i class="fa fa-star"style="font-size:30px; color:#9C2E35"></i>Phobos (greacă Φóβoς - frică) este cel mai mare dintre cele două luni (sateliți) ale lui Marte și cel mai aproapiată de planetă. Phobos a fost descoperită de către astronomul american Asaph Hall pe 17 august 1877 cu marea lunetă de 66 cm a Observatorului naval din Washington, lucrarea a opticianului nord-american Alvan Clark. Henry Madan (1838–1901) este cel care a sugerat ca Phobos și Deimos (greacă Δεῖμος - groază, teroare), celălalt satelit al lui Marte, descoperit tot de Asaph Hall, să fie numiți astfel ca referință la cartea a XV-a a Iliadei în care Ares, zeul războiului, invocă frica și groaza. Potrivit mitologiei grecești, Phobos și Deimos erau doi fii gemeni pe care Ares i-a avut cu zeița Afrodita.</p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Phobos_colour_2008.jpg" alt="https://upload.wikimedia.org/wikipedia/commons/5/5c/Phobos_colour_2008.jpg" height="500" width="600">
-    <div class="a">
-     <h2 i class="fa fa-star"style="font-size:30px; color:#9C2E35"></i> Deimos <i  class="fa fa-star"></i></h2>
-   </div>
-      <p i class="fa fa-star"style="font-size:30px; color:#9C2E35"></i>Deimos este un satelit natural al planetei Marte. Cele două luni ale lui Marte, Deimos și Phobos, au fost descoperite de astronomul american Asaph Hall. Acesta a fost Maestru în științe la Colegiul Eton. Numele Phobos și Deimos au fost sugerate de Henry Madan (1838-1901). Acesta s-a inspirat din cartea a XV-a a Iliadei, în care Ares invoca frica și groaza. Deimos a fost descoperit la 12 august 1877</p>
-       <p i class="fa fa-star"style="font-size:30px; color:#9C2E35"></i>Deimos este probabil un asteroid a cărui orbită a fost perturbată de gravitația lui Jupiter. În acest fel a fost capturat de Marte (teoria aceasta se află încă în dezbatere). Are o mărime de circa 15x12x10 km. La fel ca majoritatea corpurilor de această mărime, are o formă neregulată.</p>
-       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Deimos2.jpg/225px-Deimos2.jpg" alt="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Deimos2.jpg/225px-Deimos2.jpg" height="500" width="500">
-  </div>
-
-  <div id="Jupiter" class="tabcontent">
-   <h2 i class="fa fa-star"style="font-size:30px; color:#bcafb2"></i> Jupiter <i  class="fa fa-star"></i> </h2>
-<p i class="fa fa-star"style="font-size:30px; color:#bcafb2"></i>Jupiter este a cincea planetă de la Soare și cea mai mare din Sistemul Solar. Este un gigant gazos cu o masă de o miime din cea a Soarelui, dar de două ori și jumătate decât masa totală a tuturor celorlalte planete din Sistemul Solar. Jupiter este unul dintre cele mai strălucitoare obiecte vizibile cu ochiul liber pe cerul nopții și a fost cunoscut civilizațiilor antice încă de pe vremea istoriei înregistrate. Este numit după zeul roman Jupiter. Când este privit de pe Pământ, Jupiter poate fi suficient de luminos pentru ca lumina sa reflectată să arunce umbre, și este în medie cel de-al treilea obiect natural ca strălucire pe cerul nopții după Lună și Venus.</p>
-<img src="https://www.mozaweb.com/ro/mozaik3D/FOL/altalanos/jupiter/960.jpg" alt="https://www.mozaweb.com/ro/mozaik3D/FOL/altalanos/jupiter/960.jpg" width="800" height="550">
-<p i class="fa fa-star"style="font-size:30px; color:#bcafb2"></i>Jupiter este formată din trei sferturi de hidrogen și un sfert din heliu. Poate avea un nucleu stâncos din elemente mai grele, dar la fel ca celelalte planete gigant, lui Jupiter îi lipsește o suprafață solidă bine definită. Datorită rotației sale rapide, forma planetei este cea a unui elipsoid de rotație (mai turtit la poli și mai bombat la ecuator). Atmosfera exterioară este vizibil segregată în mai multe benzi la latitudini diferite, rezultând turbulențe și furtuni de-a lungul granițelor lor de interacțiune. Cel mai cunoscut detaliu al suprafeței sale este Marea Pată Roșie descoperită în secolul al XVII-lea cu un telescop, care este un anticiclon cu diametrul mai mare decât diametrul Pământului. Planeta are inele greu vizibile și o magnetosferă puternică. Jupiter are 79 de sateliți cunoscuți printre care se numără cei patru sateliți galileeni descoperiți de Galileo Galilei în 1610. Ganymede, cel mai mare dintre aceștia, are un diametru mai mare decât planeta Mercur.</p>
- <h2 i class="fa fa-star"style="font-size:30px; color:#bcafb2"></i>Satelitii lui Jupiter <i  class="fa fa-star"></i> </h2>
-<p i class="fa fa-star"style="font-size:30px; color:#bcafb2"></i>În prezent sunt cunoscuți 79 de sateliți naturali ai planetei Jupiter, care are astfel cei mai mari și cei mai mulți sateliți dintre toate planetele Sistemului solar. Cei mai mari sateliți, cei patru sateliți galileeni, au fost descoperiți în anul 1610 de Galileo Galilei și au fost primele corpuri cerești descoperite care nu orbitează în jurul Pământului și nici în jurul Soarelui. Spre sfârșitul secolului XIX, au fost descoperiți zeci de sateliți jovieni mai mici și au fost denumiți în cinstea iubitelor sau a fiicelor zeului roman Jupiter sau ale zeului grec, Zeus. Sateliții galileeni sunt cele mai mari obiecte care orbitează în jurul lui Jupiter, iar împreună cu ceilalți 75 de sateliți și inelele reprezintă doar 0,003 procente din masa totală care gravitează în jurul planetei.</p>
-<img src="http://descopera.truezone.ro/wp-content/uploads/2014/05/Satelitii-galileeni-ai-lui-Jupiter.jpg" alt="http://descopera.truezone.ro/wp-content/uploads/2014/05/Satelitii-galileeni-ai-lui-Jupiter.jpg" width="900" height="500">
-
-
-  </div>
-
-<div id="Saturn" class="tabcontent">
-  <h2 i class="fa fa-star"style="font-size:30px; color: #ab604a"></i> Saturn <i  class="fa fa-star"></i> </h2>
-  <p  i class="fa fa-star"style="font-size:30px; color: #ab604a"></i>Saturn este a șasea planetă de la Soare și a doua ca mărime din Sistemul Solar, după Jupiter. Este un gigant gazos cu o rază medie de aproximativ nouă ori mai mare decât cea a Pământului. Deși densitatea sa este de doar o optime din densitatea medie a Pământului, datorită volumului său mare, masa lui Saturn este de 95 de ori mai mare decât cea a Pământului. Numele derivă de la zeul omonim al mitologiei romane, omologul titanul Cronos, din mitologia greacă; simbolul său astronomic (♄) este o reprezentare stilizată a secerei zeului agriculturii </p>
-  <img src="https://mediacdn.libertatea.ro/unsafe/1200x800/smart/filters:format(webp):contrast(8):quality(75)/https://static4.libertatea.ro/wp-content/uploads/2020/09/planeta-saturn-ce-caracteristici-are-a-sasea-planeta-din-sisemul-solar.jpg" alt="https://mediacdn.libertatea.ro/unsafe/1200x800/smart/filters:format(webp):contrast(8):quality(75)/https://static4.libertatea.ro/wp-content/uploads/2020/09/planeta-saturn-ce-caracteristici-are-a-sasea-planeta-din-sisemul-solar.jpg" width="850" height="600">
-   <p  i class="fa fa-star"style="font-size:30px; color: #ab604a"></i>Interiorul lui Saturn este cel mai probabil compus dintr-un nucleu de fier–nichel și rocă (compuși de siliciu și oxigen). Nucleul este înconjurat de un strat de hidrogen metalic, un strat intermediar de hidrogen lichid și heliu lichid și, în cele din urmă, un strat exterior gazos. Saturn are o nuanță galben pal datorită cristalelor de amoniac din atmosfera sa superioară. Se crede că un curent electric din stratul de hidrogen metalic dă naștere câmpului magnetic planetar al lui Saturn, care este mai slab decât al Pământului, dar are un moment magnetic de 580 de ori mai mare decât al Pământului datorită dimensiunii mai mari a lui Saturn. Puterea câmpului magnetic al lui Saturn este în jur de o douăzecime din cea a lui Jupiter. Atmosfera exterioară este în general calmă deși pot persista tipare prelungite de furtuni. Pe Saturn suflă vânturi de aproximativ 1.800 km/h, mai puternice decât pe Jupiter dar nu la fel de mare ca cele de pe Neptun. Pe baza studiilor asupra inelului C al planetei, în ianuarie 2019 s-a stabilit că o zi pe planeta Saturn are 10h 33m 38s +h 1m 52s
-−h 1m 19s .</p>
- <h2 i class="fa fa-star"style="font-size:30px; color: #ab604a"></i> Satelitii lui Saturn <i  class="fa fa-star"></i> </h2>
- <p  i class="fa fa-star"style="font-size:30px; color: #ab604a"></i> Saturn are 82 de sateliți cunoscuți, dintre care 53 au nume formale. În plus, există dovezi de zeci până la sute de sateliți minori cu diametre de 40-500 de metri în inelele lui Saturn, care nu sunt considerate adevărați sateliți. Titan, cel mai mare satelit, cuprinde mai mult de 90 % din masa de pe orbita din jurul lui Saturn (inclusiv inelele). Al doilea satelit ca mărime, Rhea, ar putea avea un sistem de inele propriu, alături de o atmosferă rarefiată.</p>
- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Moons_of_Saturn_-_Infographic_%2815628203777%29.jpg/800px-Moons_of_Saturn_-_Infographic_%2815628203777%29.jpg" alt="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Moons_of_Saturn_-_Infographic_%2815628203777%29.jpg/800px-Moons_of_Saturn_-_Infographic_%2815628203777%29.jpg" width="700" height="500">
-  </div>
-
-<div id="Uranus" class="tabcontent">
-  <h2 i class="fa fa-star"style="font-size:30px; color: #4FD0E7"></i>  Uranus<i  class="fa fa-star"></i> </h2>
-  <p  i class="fa fa-star"style="font-size:30px; color: #4FD0E7"></i> Uranus este a șaptea planetă de la Soare. Numele său este o referință la zeul grec al cerului, Uranus, care, conform mitologiei grecești, a fost bunicul lui Zeus (Jupiter) și tatăl lui Cronos (Saturn). Este a treia planetă ca mărime și a patra ca masivitate din Sistemul Solar. Uranus are o compozție similară cu Neptun și ambele au compoziții chimice diferite de cele ale celor mai mari giganți gazoși: Jupiter și Saturn. Din acest motiv, oamenii de știință clasifică adesea Uranus și Neptun ca „giganți de gheață” pentru a-i deosebi de ceilalți giganți gazoși. Atmosfera lui Uranus, deși este similară cu cea a lui Jupiter și a lui Saturn în compoziția sa primară de hidrogen și heliu, conține mai multă „gheață” cum ar fi apă, amoniac și metan, precum și urme de alte hidrocarburi. Are cea mai rece atmosferă planetară din Sistemul Solar, cu o temperatură minimă de 49 K (−224 °C). Uranus are o structură complexă de nori stratificați și se crede că apa formează cei mai mici nori, iar metanul stratul superior de nori. Interiorul lui Uranus este compus în principal din gheață și rocă.</p>
-  <img src="https://media.alephnews.ro/2021/04/uranus-1070x600.jpg" alt="https://media.alephnews.ro/2021/04/uranus-1070x600.jpg" width="600" height="500">
-  <p  i class="fa fa-star"style="font-size:30px; color: #4FD0E7"></i>La fel ca celelalte planete gigant, Uranus are un sistem de inele, o magnetosferă și numeroși sateliți. Sistemul uranian are o configurație unică, deoarece axa sa de rotație este înclinată lateral, aproape în planul orbitei sale solare. Prin urmare, polii săi nordici și sudici se află acolo unde majoritatea celorlalte planete își au ecuatorul. În 1986, imaginile de la Voyager 2 au arătat-o pe Uranus ca pe o planetă aproape fără caracteristici în lumină vizibilă, fără benzile de nori sau furtuni asociate cu celelalte planete gigantice. Voyager 2 rămâne singura navă spațială care a vizitat planeta. Observațiile de pe Pământ au arătat schimbări sezoniere și o creștere a activității meteo pe măsură ce Uranus s-a apropiat de echinocțiul său în 2007. Viteza vântului poate ajunge la 250 m/s (900 km/h).</p>
-  <h2 i class="fa fa-star"style="font-size:30px; color: #4FD0E7"></i>Satelitii lui  Uranus<i  class="fa fa-star"></i> </h2>
-   <p  i class="fa fa-star"style="font-size:30px; color: #4FD0E7"></i>Uranus are 27 de sateliți naturali cunoscuți. Numele acestor sateliți au fost alese dintre personajele din operele lui Shakespeare și Alexander Pope. Cei cinci sateliți principali sunt: Miranda, Ariel, Umbriel, Titania și Oberon. Masa totală a sateliților uranieni este cea mai mică dintre giganții gazoși; de fapt, masa combinată a celor cinci mari ar fi mai mică decât cea a lui Triton, cel mai mare satelit al lui Neptun. Cel mai mare dintre sateliții lui Uranus, Titania, are o rază de numai 788,9 km, sau mai puțin de jumătate din raza Lunii, însă puțin mai mult decât Rhea, al doilea satelit ca mărime al lui Saturn. Sateliții lui Uranus au un albedo relativ scăzut, variind de la 0,2 pentru Umbriel la 0,35 pentru Ariel (în lumină verde).[11] Sateliții sunt conglomerate de gheață-rocă alcătuite din aproximativ 50% gheață și 50% rocă. Gheața poate include amoniac și dioxid de carbon.</p>
-  </div>
-
-  <div id="Neptun" class="tabcontent">
-   <h2 i class="fa fa-star"style="font-size:30px; color:#4b70dd"></i> Neptun <i  class="fa fa-star"></i> </h2>
-  <p  i class="fa fa-star"style="font-size:30px; color: #4b70dd"></i>Neptun este a opta planeta de la Soare din sistemul solar. Numită după zeul roman al mării, este a patra planetă după diametru și a treia după masă. Neptun are o masă de 17 ori mai mare decât cea a Pământului și puțin mai mare decât masa lui Uranus, care este de 15 ori mai greu decât Pământul, dar nu la fel de dens. Neptun orbitează în jurul Soarelui la o distanță de 30,1 unități astronomice, ceea ce înseamnă că orbita sa este de aproximativ 30 de ori mai mare decât orbita Pământului. Simbolul astronomic al lui Neptun este ♆, o variantă modificată a tridentului zeului Neptun.</p>
-  <img src="https://cdn.pixabay.com/photo/2020/12/02/18/47/neptune-5798425_960_720.jpg" alt="https://cdn.pixabay.com/photo/2020/12/02/18/47/neptune-5798425_960_720.jpg" width="700" height="500">
-   <p  i class="fa fa-star"style="font-size:30px; color: #4b70dd"></i>Neptun a fost prima planetă găsită prin calcule matematice. Planeta Neptun a fost descoperită din cauza perturbărilor gravitaționale din orbita lui Uranus care l-au condus pe Alexis Bouvard să presupună existența unei a opta planete. Neptun a fost ulterior observat pe 23 septembrie 1846 de Johann Galle, la o distanță de mai puțin de un grad de poziția prezisă de calculele lui Urbain Le Verrier. La scurt timp după aceasta a fost descoperit și satelitul său Triton. Alți 12 sateliți au fost descoperiți în secolul al XX-lea. La 25 august 1989, sonda spațială Voyager 2 a trecut prin vecinătatea planetei.</p>
-   <h2 i class="fa fa-star"style="font-size:30px; color:#4b70dd"></i>Satelitii lui Neptun <i  class="fa fa-star"></i> </h2>
-   <p i class="fa fa-star"style="font-size:30px; color: #4b70dd"></i>Planeta Neptun are 13 sateliți naturali cunoscuți. Cel mai mare satelit este Triton, cuprinzând peste 99,5% din masa totală care gravitează în jurul lui Neptun și este unicul suficient de masiv ca să capete o formă sferoidală. A fost descoperit de către William Lassell la doar 17 zile după descoperirea planetei Neptun. Spre deosebire de toți ceilalți sateliți din Sistemul solar, Triton are o orbită retrogradă, ceea ce indică faptul că mai degrabă a fost capturat decât s-a format împreună cu Neptun; probabil că inițial a fost o planetă pitică din centura Kuiper. Este destul de aproape de Neptun pentru a avea o rotație sincronă iar traiectoria sa are forma unei spirale lente spre interior din cauza accelerației mareelor. Acesta va fi dezintegrat în cele din urmă, peste circa 3,6 miliarde de ani, atunci când va atinge limita Roche.În 1989, Triton era cel mai rece dintre obiectele din Sistemul solar a căror temperatură fusese măsurată până la acea dată, având o temperatură de aproximativ −235 °C (38 K).</p>
-
-
-</div>
-   <div>
-  
-  
-</div>
-  </div>
-  <p></p>
-  <p></p>
-  <h3></h3>
-  <h3></h3>
-  <div>
-  
-</div>
-<script>
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
-
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-  var myDropdown = document.getElementById("myDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
-  }
-}
-</script>
-
-
-
-
-  </body>
-</html>
+<noscript>JavaScript must be enabled in your browse in order to see protected page.</noscript>
